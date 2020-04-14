@@ -84,128 +84,49 @@ const User = sequelize.define('user', {
   collate: 'utf8mb4_unicode_ci'
 });
 
-async function makeUsersTable(){
-  // force: true will drop the table if it already exists
-  await User.sync({force: true})
-  for (row of data.users) {
-    // Table created
-    await User.create({
-      first: row.first,
-      last: row.last,
-      username: row.username,
-      email: row.email,
-      password: row.password,
-      roles: row.roles
-    });
-  }
-}
 
+const Role = sequelize.define('role', {
+  role_code: { type: Sequelize.TEXT, unique: true },
+  role_value: { type: Sequelize.TEXT, unique: true }
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+})
 
-// Find all users
-async function getUsers() {
-  const users = await User.findAll();
-  // const users = await User.findAll({
-  //   attributes: ['name', 'last_seen']
-  // });
-  console.log(users.every(user => user instanceof User)); // true
-  console.log("All users:", JSON.stringify(users, null, 2));
-}
-
-
-
-async function makeandReadUsers() {
-  await makeUsersTable()
-  await getUsers()
-}
-
-makeandReadUsers()
-
-// const Root = sequelize.define('root', {
-//   root: { type: Sequelize.STRING },
-//   number: { type: Sequelize.INTEGER },
-//   sense: {type: Sequelize.STRING},
-//   salish: { type: Sequelize.STRING },
-//   nicodemus: { type: Sequelize.STRING },
-//   symbol: {type: Sequelize.STRING},
-//   english: { type: Sequelize.STRING },
-//   grammar: { type: Sequelize.STRING},
-//   crossref: { type: Sequelize.STRING},
-//   variant: { type: Sequelize.STRING},
-//   cognate: { type: Sequelize.STRING},
-//   editnote: { type: Sequelize.STRING },
-//   active: { type: Sequelize.STRING(1) },
-//   prevId: { type: Sequelize.INTEGER },
-//   userId: { type: Sequelize.STRING }
-// },
-// {
-//   charset: 'utf8mb4',
-//   collate: 'utf8mb4_unicode_ci'
-// });
-
-// // Find all roots
-// async function getRoots() {
-//   const roots = await Root.findAll({
-//     order: [
-//         ['root', 'ASC']
-//     ],
-//     attributes: ['root', 'salish', 'nicodemus'],
-//     limit: 100
-// });
-//   // const roots = await Roots.findAll({
-//   //   attributes: ['salish', 'nicodemus']
-//   // });
-//   console.log(roots.every(root => root instanceof Root)); // true
-//   console.log("All roots:", JSON.stringify(roots, null, 2));
-// }
-
-// // next, build the Root Dictionary, Affix List and Stem List from files in the 'data' directory
-// async function makeRootTable(){
-//   //await Root.sync({force: true});
-//   var fs = require('fs');
-//   var contents = fs.readFileSync('data/fixed_entries_trim.txt', 'utf8');
-//   var rows = contents.split("\n");
-//   for (row of rows) {
-//     row = row.replace(/(\r)/gm, "");
-//     columns = row.split(":::");
-//     console.log(columns)
-//     if (columns[5]) {
-//       await Root.create({
-//         root: columns[2],
-//         number: columns[3] ? parseInt(columns[3]) : 0,
-//         sense: columns[4],
-//         salish: columns[5],
-//         nicodemus: columns[6],
-//         symbol: columns[7],
-//         english: columns[8],
-//         grammar: columns[9],
-//         crossref: columns[10],
-//         variant: columns[11],
-//         cognate: columns[12],
-//         edit_note: columns[13],
-//         active: 'Y',
-//         prev_id: Sequelize.NULL,
-//         user_id: "auth0|5e4c1705b6ef8d0e9ccffd60"
-//       })
-//     }
-//   }
-//   console.log("I have a roots table");
-// }
-
-// //makeRootTable();
-
-// getRoots();
- 
-/* const Affix = sequelize.define('affix', {
-  type: { type: Sequelize.STRING },
-  salish: { type: Sequelize.STRING },
-  nicodemus: { type: Sequelize.STRING },
-  english: { type: Sequelize.STRING },
-  link: { type: Sequelize.STRING },
-  page: { type: Sequelize.STRING },
-  editnote: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
+const Root = sequelize.define('root', {
+  root: { type: Sequelize.TEXT },
+  number: { type: Sequelize.INTEGER },
+  sense: {type: Sequelize.TEXT},
+  salish: { type: Sequelize.TEXT },
+  nicodemus: { type: Sequelize.TEXT },
+  symbol: {type: Sequelize.TEXT},
+  english: { type: Sequelize.TEXT },
+  grammar: { type: Sequelize.TEXT},
+  crossref: { type: Sequelize.TEXT},
+  variant: { type: Sequelize.TEXT},
+  cognate: { type: Sequelize.TEXT},
+  editnote: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }
+  userId: { type: Sequelize.TEXT }
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
+const Affix = sequelize.define('affix', {
+  type: { type: Sequelize.TEXT },
+  salish: { type: Sequelize.TEXT },
+  nicodemus: { type: Sequelize.TEXT },
+  english: { type: Sequelize.TEXT },
+  link: { type: Sequelize.TEXT },
+  page: { type: Sequelize.TEXT },
+  editnote: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
+  prevId: { type: Sequelize.INTEGER },
+  userId: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -213,17 +134,17 @@ makeandReadUsers()
 });
 
 const Stem = sequelize.define('stem', {
-  category: { type: Sequelize.STRING },
-  reichard: { type: Sequelize.STRING },
-  doak: { type: Sequelize.STRING },
-  salish: { type: Sequelize.STRING },
-  nicodemus: { type: Sequelize.STRING },
-  english: { type: Sequelize.STRING },
-  note: { type: Sequelize.STRING },
-  editnote: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
+  category: { type: Sequelize.TEXT },
+  reichard: { type: Sequelize.TEXT },
+  doak: { type: Sequelize.TEXT },
+  salish: { type: Sequelize.TEXT },
+  nicodemus: { type: Sequelize.TEXT },
+  english: { type: Sequelize.TEXT },
+  note: { type: Sequelize.TEXT },
+  editnote: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }
+  userId: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -231,14 +152,14 @@ const Stem = sequelize.define('stem', {
 });
 
 const Spelling = sequelize.define('spelling', {
-  reichard: { type: Sequelize.STRING },
-  nicodemus: { type: Sequelize.STRING },
-  salish: { type: Sequelize.STRING },
-  english: { type: Sequelize.STRING },
-  note: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
+  reichard: { type: Sequelize.TEXT },
+  nicodemus: { type: Sequelize.TEXT },
+  salish: { type: Sequelize.TEXT },
+  english: { type: Sequelize.TEXT },
+  note: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }
+  userId: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -246,11 +167,11 @@ const Spelling = sequelize.define('spelling', {
 });
 
 const Vowel = sequelize.define('vowel', {
-  orthography: { type: Sequelize.STRING },
-  height: { type: Sequelize.STRING },
-  front: { type: Sequelize.STRING },
-  central: { type: Sequelize.STRING },
-  back: { type: Sequelize.STRING }
+  orthography: { type: Sequelize.TEXT },
+  height: { type: Sequelize.TEXT },
+  front: { type: Sequelize.TEXT },
+  central: { type: Sequelize.TEXT },
+  back: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -258,19 +179,19 @@ const Vowel = sequelize.define('vowel', {
 });
 
 const Consonant = sequelize.define('consonant', {
-  orthography: { type: Sequelize.STRING },
-  voice: { type: Sequelize.STRING },
-  manner: { type: Sequelize.STRING },
-  secondary: { type: Sequelize.STRING },
-  labial: { type: Sequelize.STRING },
-  alveolar: { type: Sequelize.STRING },
-  alveopalatal: { type: Sequelize.STRING },
-  lateral: { type: Sequelize.STRING },
-  palatal: { type: Sequelize.STRING },
-  velar: { type: Sequelize.STRING },
-  uvular: { type: Sequelize.STRING },
-  glottal: { type: Sequelize.STRING },
-  pharyngeal: { type: Sequelize.STRING }
+  orthography: { type: Sequelize.TEXT },
+  voice: { type: Sequelize.TEXT },
+  manner: { type: Sequelize.TEXT },
+  secondary: { type: Sequelize.TEXT },
+  labial: { type: Sequelize.TEXT },
+  alveolar: { type: Sequelize.TEXT },
+  alveopalatal: { type: Sequelize.TEXT },
+  lateral: { type: Sequelize.TEXT },
+  palatal: { type: Sequelize.TEXT },
+  velar: { type: Sequelize.TEXT },
+  uvular: { type: Sequelize.TEXT },
+  glottal: { type: Sequelize.TEXT },
+  pharyngeal: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -278,15 +199,15 @@ const Consonant = sequelize.define('consonant', {
 });
 
 const Bibliography = sequelize.define('bibliography', {
-  author: { type: Sequelize.STRING },
-  year: { type: Sequelize.STRING },
-  title: { type: Sequelize.STRING },
-  reference: { type: Sequelize.STRING },
-  link: { type: Sequelize.STRING },
-  linktext: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
+  author: { type: Sequelize.TEXT },
+  year: { type: Sequelize.TEXT },
+  title: { type: Sequelize.TEXT },
+  reference: { type: Sequelize.TEXT },
+  link: { type: Sequelize.TEXT },
+  linktext: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }
+  userId: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -294,14 +215,14 @@ const Bibliography = sequelize.define('bibliography', {
 });
 
 const Text = sequelize.define('text', {
-  title: { type: Sequelize.STRING },
-  speaker: { type: Sequelize.STRING },
-  cycle: { type: Sequelize.STRING },
-  rnumber: { type: Sequelize.STRING },
-  tnumber: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
+  title: { type: Sequelize.TEXT },
+  speaker: { type: Sequelize.TEXT },
+  cycle: { type: Sequelize.TEXT },
+  rnumber: { type: Sequelize.TEXT },
+  tnumber: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }
+  userId: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -309,15 +230,15 @@ const Text = sequelize.define('text', {
 });
 
 const Textfile = sequelize.define('textfile', {
-  subdir: { type: Sequelize.STRING },
-  src: { type: Sequelize.STRING },
-  resType: { type: Sequelize.STRING },
-  msType: { type: Sequelize.STRING },
-  fileType: { type: Sequelize.STRING },
-  textId: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
+  subdir: { type: Sequelize.TEXT },
+  src: { type: Sequelize.TEXT },
+  resType: { type: Sequelize.TEXT },
+  msType: { type: Sequelize.TEXT },
+  fileType: { type: Sequelize.TEXT },
+  textId: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }
+  userId: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -325,11 +246,11 @@ const Textfile = sequelize.define('textfile', {
 });
 
 const Textimage = sequelize.define('textimage', {
-  subdir: { type: Sequelize.STRING },
-  src: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
+  subdir: { type: Sequelize.TEXT },
+  src: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.STRING }
+  userId: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -347,11 +268,11 @@ const TextFileMetaData = sequelize.define('textfilemetadata', {
 
 
 const Audioset = sequelize.define('audioset', {
-  title: { type: Sequelize.STRING },
-  speaker: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
-  textId: { type: Sequelize.STRING },
-  userId: { type: Sequelize.STRING }
+  title: { type: Sequelize.TEXT },
+  speaker: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
+  textId: { type: Sequelize.TEXT },
+  userId: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -359,12 +280,12 @@ const Audioset = sequelize.define('audioset', {
 });
 
 const Audiofile = sequelize.define('audiofile', {
-  subdir: { type: Sequelize.STRING },
-  src: { type: Sequelize.STRING },
-  type: { type: Sequelize.STRING },
-  direct: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
-  userId: { type: Sequelize.STRING }
+  subdir: { type: Sequelize.TEXT },
+  src: { type: Sequelize.TEXT },
+  type: { type: Sequelize.TEXT },
+  direct: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
+  userId: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -381,13 +302,13 @@ const AudioSetMetaData = sequelize.define('audiosetmetadata', {
 });
 
 const Elicitationset = sequelize.define('elicitationset', {
-  title: { type: Sequelize.STRING },
-  language: { type: Sequelize.STRING },
-  speaker: { type: Sequelize.STRING },
-  transcription: { type: Sequelize.STRING },
-  editnote: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
-  userId: { type: Sequelize.STRING },
+  title: { type: Sequelize.TEXT },
+  language: { type: Sequelize.TEXT },
+  speaker: { type: Sequelize.TEXT },
+  transcription: { type: Sequelize.TEXT },
+  editnote: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
+  userId: { type: Sequelize.TEXT },
   prevID: { type: Sequelize.INTEGER }
 },
 {
@@ -396,168 +317,18 @@ const Elicitationset = sequelize.define('elicitationset', {
 });
 
 const Elicitationfile = sequelize.define('elicitationfile', {
-  src: { type: Sequelize.STRING },
-  type: { type: Sequelize.STRING },
-  direct: { type: Sequelize.STRING },
-  active: { type: Sequelize.STRING(1) },
-  userId: { type: Sequelize.STRING }
+  src: { type: Sequelize.TEXT },
+  type: { type: Sequelize.TEXT },
+  direct: { type: Sequelize.TEXT },
+  active: { type: Sequelize.TEXT },
+  userId: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
   collate: 'utf8mb4_unicode_ci'
 });
 
-// fundamental types for relation tables, supporting many-to-many mappings
-// audiosets to audiofiles; elicitationsets to elicitationfiles; textfiles to textimages;
-// texts to textfiles; and texts to audiosets
 
-// audiosets to audiofiles
-const Audiorelation = sequelize.define('audiorelation', {
-  AudiosetId: { type: Sequelize.STRING },
-  AudiofileId: { type: Sequelize.STRING },
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
-
-// audiosets to audiometadata
-// const Audiometadatarelation = sequelize.define('audiometadatarelation', {
-//   AudiosetId: { type: Sequelize.STRING },
-//   AudiosetmetadataId: { type: Sequelize.STRING },
-// },
-// {
-//   charset: 'utf8mb4',
-//   collate: 'utf8mb4_unicode_ci'
-// });
-
-// elicitationsets to elicitationfiles
-const Elicitationrelation = sequelize.define('elicitationrelation', {
-  ElicitationsetId: { type: Sequelize.STRING },
-  ElicitationfileId: { type: Sequelize.STRING },
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
-
-// textfiles to textimages
-const Filetoimagerelation = sequelize.define('filetoimagerelation', {
-  TextfileId: { type: Sequelize.STRING },
-  TextimageId: { type: Sequelize.STRING },
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
-
-// // textfiles to textfilemetadata
-// const Filetometadatarelation = sequelize.define('filetometadatarelation', {
-//   TextfileId: { type: Sequelize.STRING },
-//   TextfilemetadataId: { type: Sequelize.STRING },
-// },
-// {
-//   charset: 'utf8mb4',
-//   collate: 'utf8mb4_unicode_ci'
-// });
-
-//texts to textfiles
-const Texttofilerelation = sequelize.define('texttofilerelation', {
-  TextId: { type: Sequelize.STRING },
-  TextfileId: { type: Sequelize.STRING },
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
-
-// texts to audiosets
-const Texttoaudiosetrelation = sequelize.define('texttoaudiosetrelation', {
-  TextId: { type: Sequelize.STRING },
-  AudiosetId: { type: Sequelize.STRING },
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
-
-// now establiehs the many-to-many relationships via foreignKeys
-// audiosets to audiofiles
-Audioset.belongsToMany( Audiofile, {
-  //as: [SetToFile],
-  through: "audiorelations", //this can be string or a model,
-  foreignKey: 'AudiosetId'
-})
-Audiofile.belongsToMany( Audioset, {
-  //as: [FileToSet],
-  through: "audiorelations",
-  foreignKey: 'AudiofileId'
-})
-// elicitationsets to elicitationfiles
-Elicitationset.belongsToMany( Elicitationfile, {
-  through: "elicitationrelations", //this can be string or a model,
-  foreignKey: 'ElicitationsetId'
-})
-Elicitationfile.belongsToMany( Elicitationset, {
-  through: "elicitationrelations",
-  foreignKey: 'ElicitationfileId'
-})
-//Textfiles to textimages
-Textfile.belongsToMany( Textimage, {
-  through: "filetoimagerelations", //this can be string or a model,
-  foreignKey: 'TextfileId'
-})
-Textimage.belongsToMany( Textfile, {
-  through: "filetoimagerelations", //this can be string or a model,
-  foreignKey: 'TextimageId'
-})
-//Texts to textfiles
-Text.belongsToMany( Textfile, {
-  through: "texttofilerelations", //this can be string or a model,
-  foreignKey: 'TextId'
-})
-Textfile.belongsToMany( Text, {
-  through: "texttofilerelations", //this can be string or a model,
-  foreignKey: 'TextfileId'
-})
-//Texts to audiosets
-Text.belongsToMany( Audioset, {
-  through: "texttoaudiosetrelations", //this can be string or a model,
-  foreignKey: 'TextId'
-})
-Audioset.belongsToMany( Text, {
-  through: "texttoaudiosetrelations", //this can be string or a model,
-  foreignKey: 'AudiosetId'
-})
-
-// Now functions to build tables.  First the empty relations tables
-// audioset to audiofile
-async function makeAudiorelationTable(){
-  await Audiorelation.sync({force: true});
-}
-
-// elicitationset to elicitationfile
-async function makeElicitationrelationTable(){
-  await Elicitationrelation.sync({force: true});
-}
-
-// textfile to textimages
-async function makeFiletoimagerelationTable(){
-  await Filetoimagerelation.sync({force: true});
-}
-
-// text to textfiles
-async function makeTexttofilerelationTable(){
-  await Texttofilerelation.sync({force: true});
-}
-
-// text to audiosets
-async function makeTexttoaudiosetrelationTable(){
-  await Texttoaudiosetrelation.sync({force: true});
-}
-
-// now build tables from data
-// build the users table
 async function makeUsersTable(){
   // force: true will drop the table if it already exists
   await User.sync({force: true})
@@ -574,6 +345,16 @@ async function makeUsersTable(){
   }
 }
 
+async function makeRoleTable() {
+  await Role.sync({force: true})
+  for (row of data.roles) {
+    await Role.create({
+      role_code: row.role_code,
+      role_value: row.role_value
+    })
+  }
+}
+
 // next, build the Root Dictionary, Affix List and Stem List from files in the 'data' directory
 async function makeRootTable(){
   await Root.sync({force: true});
@@ -586,7 +367,7 @@ async function makeRootTable(){
     if (columns[5]) {
       await Root.create({
         root: columns[2],
-        number: parseInt(columns[3]),
+        number: columns[3] === '' ? 0 : parseInt(columns[3]),
         sense: columns[4],
         salish: columns[5],
         nicodemus: columns[6],
@@ -609,7 +390,7 @@ async function makeRootTable(){
 async function makeAffixTable(){
   await Affix.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\affixes_spelled.txt', 'utf8');
+  var contents = fs. readFileSync('data/affixes_spelled.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.replace(/(\r)/gm, "");
@@ -635,7 +416,7 @@ async function makeAffixTable(){
 async function makeStemTable(){
   await Stem.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\stems_both_lists_nodoak_spelled.txt', 'utf8');
+  var contents = fs. readFileSync('data/stems_both_lists_nodoak_spelled.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.trim();
@@ -760,9 +541,8 @@ async function makeTextTable(){
   console.log("I have a texts table");
 }
 
-// the textfiles table requires the texttofilerelation table
+
 async function makeTextfileTable(){
-  await makeTexttofilerelationTable();
   await Textfile.sync({force: true});
   for (row of data.textfiles) {
     let newTextfile = await Textfile.create({
@@ -776,15 +556,14 @@ async function makeTextfileTable(){
       prevId: Sequelize.NULL,
       userId: '1'
     })
-    let myText = await Text.findOne({  where: {id: row.textId} })
-    await newTextfile.addText(myText)
+    // let myText = await Text.findOne({  where: {id: row.textId} })
+    // await newTextfile.addText(myText)
   };
   console.log("I have a textfiles table")
 }
 
 // the textimage table requires the filetoimagerelation table and the textfile table
 async function makeTextimageTable(){
-  await makeFiletoimagerelationTable();
   await makeTextfileTable();
   await Textimage.sync({force: true});
   for (row of data.textimages) {
@@ -795,8 +574,8 @@ async function makeTextimageTable(){
       prevId: Sequelize.NULL,
       userId: '1'
     })
-    let myTextFile = await Textfile.findOne({  where: {id: row.textfileId} })
-    await newTextImage.addTextfile(myTextFile)
+    // let myTextFile = await Textfile.findOne({  where: {id: row.textfileId} })
+    // await newTextImage.addTextfile(myTextFile)
   };
   console.log("I have a textimages table");
 }
@@ -807,7 +586,27 @@ async function makeTextFileMetaDataTable(){
     await TextFileMetaData.create({
       textFileId: row.textFileId,
       metadata: "{ \"originalTitle\" : \"" + row.originalTitle + "\", \n" +
-      "\"isVersionofEngl\" : \"" + row.isVersionofEngl + "\" }" 
+      "\"isVersionofEngl\" : \"" + row.isVersionofEngl + "\" ,\n" +
+      "\"isVersionofTyped\" : \"" + row.isVersionofTyped + "\" ,\n"  +
+      "\"subject\" : \"" + row.subject + "\" ,\n" +
+      "\"description\" : \"" + row.description + "\" ,\n" +
+      "\"type\" : \"" + row.type + "\" ,\n" +
+      "\"source\" : \"" + row.source + "\" ,\n" +
+      "\"coverageLang\" : \"" + row.coverageLang + "\" ,\n" +
+      "\"coverageTime\" : \"" + row.coverageTime + "\" ,\n" +
+      "\"date\" : \"" + row.date + "\" ,\n" +
+      "\"modified\" : \"" + row.modified + "\" ,\n" +
+      "\"creatorNarrator\" : \"" + row.creatorNarrator + "\" ,\n" +
+      "\"creatorInterpreter\" : \"" + row.creatorInterpreter + "\" ,\n" +
+      "\"creatorLinguist\" : \"" + row.creatorLinguist + "\" ,\n" +
+      "\"creatorCoEditors\" : \"" + row.creatorCoEditors + "\" ,\n" +
+      "\"format\" : \"" + row.format + "\" ,\n" +
+      "\"identifierArchive\" : \"" + row.identifierArchive + "\" ,\n" +
+      "\"identifierColrcUrl\" : \"" + row.identifierColrcUrl + "\" ,\n" +
+      "\"identifierColrcNo\" : \"" + row.identifierColrcNo + "\" ,\n" +
+      "\"langEng\" : \"" + row.langEng + "\" ,\n" +
+      "\"langCrd\" : \"" + row.langCrd + "\" ,\n" +
+      "\"langBoth\" : \"" + row.langBoth + "\" }" 
     });
   };
   console.log("I have a textfilemetadata table");
@@ -819,7 +618,21 @@ async function makeAudioSetMetaDataTable(){
     await AudioSetMetaData.create({
       audioSetId: row.audioSetId,
       metadata: "{ \"originalTitle\" : \"" + row.originalTitle + "\", \n" +
-      "\"isFormatofCrd\" : \"" + row.isFormatofCrd + "\" }" 
+      "\"isFormatofCrd\" : \"" + row.isFormatofCrd + "\" ,\n" +
+      "\"subject\" : \"" + row.subject + "\" ,\n"  +
+      "\"description\" : \"" + row.description + "\" ,\n" +
+      "\"type\" : \"" + row.type + "\" ,\n" +
+      "\"source\" : \"" + row.source + "\" ,\n" +
+      "\"coverageLang\" : \"" + row.coverageLang + "\" ,\n" +
+      "\"coverageTime\" : \"" + row.coverageTime + "\" ,\n" +
+      "\"date\" : \"" + row.date + "\" ,\n" +
+      "\"creatorLinguist\" : \"" + row.creatorLinguist + "\" ,\n" +
+      "\"creatorReader\" : \"" + row.creatorReader + "\" ,\n" +
+      "\"format\" : \"" + row.format + "\" ,\n" +
+      "\"identifierPermanent\" : \"" + row.identifierPermanent + "\" ,\n" +
+      "\"identifierColrcUrl\" : \"" + row.identifierColrcUrl + "\" ,\n" +
+      "\"identifierColrcNo\" : \"" + row.identifierColrcNo + "\" ,\n" +
+      "\"langCrd\" : \"" + row.langCrd + "\" \n}" 
     });
   };
   console.log("I have a audiosetmetadata table");
@@ -827,7 +640,6 @@ async function makeAudioSetMetaDataTable(){
 
 // make the audioset table
 async function makeAudiosetTable(){
-  await makeTexttoaudiosetrelationTable();
   await Audioset.sync({force: true});
   for (row of data.audiosets) {
     let newAudioSet = await Audioset.create({
@@ -838,8 +650,8 @@ async function makeAudiosetTable(){
       prevId: Sequelize.NULL,
       userId: '1'
     })
-    let myText = await Text.findOne({  where: {id: row.textId} })
-    await newAudioSet.addText(myText)
+    // let myText = await Text.findOne({  where: {id: row.textId} })
+    // await newAudioSet.addText(myText)
   };
   console.log("I have an audiosets table");
 }
@@ -847,7 +659,6 @@ async function makeAudiosetTable(){
 // make the audiofile table from Data.js
 async function makeAudiofileTable(){
   await makeAudiosetTable()
-  await makeAudiorelationTable()
   await Audiofile.sync({force: true})
   for (row of data.audiofiles) {
     let newAudioFile = await Audiofile.create({
@@ -859,8 +670,8 @@ async function makeAudiofileTable(){
       prevId: Sequelize.NULL,
       userId: '1'
     })
-    let myAudioSet = await Audioset.findOne({  where: {id: row.audiosetId} })
-    await newAudioFile.addAudioset(myAudioSet)
+    // let myAudioSet = await Audioset.findOne({  where: {id: row.audiosetId} })
+    // await newAudioFile.addAudioset(myAudioSet)
   }
   console.log("I have an audiofiles table")
 }
@@ -886,7 +697,6 @@ async function makeElicitationsetTable(){
 
 // make the elicitationfile table from Data.js
 async function makeElicitationfileTable(){
-  await makeElicitationrelationTable();
   await makeElicitationsetTable();
   await Elicitationfile.sync({force: true});
   for (row of data.elicitationfiles) {
@@ -898,21 +708,40 @@ async function makeElicitationfileTable(){
       prevId: Sequelize.NULL,
       userId: '1'
     })
-    let myElicitationSet = await Elicitationset.findOne({  where: {id: row.elicitationId} })
-    await console.log("Elicitation set id: " + myElicitationSet.id + ", elicitation title: " + myElicitationSet.title)
-    await console.log("Elicitation file id: " + newElicitationFile.id + ", elicitation src: " + newElicitationFile.src)
-    await myElicitationSet.addElicitationfile(newElicitationFile)
+    // let myElicitationSet = await Elicitationset.findOne({  where: {id: row.elicitationId} })
+    // await console.log("Elicitation set id: " + myElicitationSet.id + ", elicitation title: " + myElicitationSet.title)
+    // await console.log("Elicitation file id: " + newElicitationFile.id + ", elicitation src: " + newElicitationFile.src)
+    // await myElicitationSet.addElicitationfile(newElicitationFile)
   }
   console.log("I have an elicitationfiles table");
 }
 
-// we can bundle these table builds, but order matters.  Relation tables must come before
-// the tables that use them
+// Find all users
+async function getUsers() {
+  const users = await User.findAll();
+  // const users = await User.findAll({
+  //   attributes: ['name', 'last_seen']
+  // });
+  console.log(users.every(user => user instanceof User)); // true
+  console.log("All users:", JSON.stringify(users, null, 2));
+}
+
+
+async function makeandReadUsers() {
+  await makeUsersTable()
+  await getUsers()
+}
+
+makeandReadUsers()
+
+
+
+
+
+
+// // we can bundle these table builds, but order matters.  Relation tables must come before
+// // the tables that use them
 async function makeMedia(){
-  await makeFiletoimagerelationTable();
-  await makeTexttofilerelationTable();
-  await makeTexttoaudiosetrelationTable();
-  await makeAudiorelationTable();
   await makeTextTable();
   await makeTextimageTable();
   await makeAudiofileTable();
@@ -933,12 +762,5 @@ async function makeTables(){
   await makeMedia();
 }
 
-// below call the build function(s) you want.
-//makeRootTable()
-//makeStemTable();
-makeTables();
-//makeAudiofileTable();
-//makeElicitationfileTable();
-//makeMedia();
-//makeUsersTable()
- */
+// // below call the build function(s) you want.
+// makeTables()

@@ -48,7 +48,7 @@ query.on('error', err => {
     host: process.env.DB_HOST,
     dialect: process.env.DB_DIALECT,
     dialectOptions: {
-      ssl: true
+      ssl: false
     },
     //operatorsAliases: false,
     pool: { max: 5, min: 0, acquire: 300000, idle: 10000 },
@@ -71,16 +71,35 @@ sequelize
 // ****** Set up default POSTGRES connection END ****** //
 
 // first provide all the fundamental types
-const User = sequelize.define('users', {
-  name: { type: Sequelize.STRING },
-  created_at: { type: Sequelize.DATE },
-  last_seen: { type: Sequelize.DATE }
+const User = sequelize.define('user', {
+  first: { type: Sequelize.TEXT },
+  last: { type: Sequelize.TEXT },
+  username: { type: Sequelize.TEXT },
+  email: { type: Sequelize.TEXT, unique: true },
+  password: { type: Sequelize.TEXT },
+  roles: { type: Sequelize.TEXT }
 },
 {
-  timestamps: false,
   charset: 'utf8mb4',
   collate: 'utf8mb4_unicode_ci'
 });
+
+async function makeUsersTable(){
+  // force: true will drop the table if it already exists
+  await User.sync({force: true})
+  for (row of data.users) {
+    // Table created
+    await User.create({
+      first: row.first,
+      last: row.last,
+      username: row.username,
+      email: row.email,
+      password: row.password,
+      roles: row.roles
+    });
+  }
+}
+
 
 // Find all users
 async function getUsers() {
@@ -92,83 +111,89 @@ async function getUsers() {
   console.log("All users:", JSON.stringify(users, null, 2));
 }
 
-getUsers();
 
-const Root = sequelize.define('roots', {
-  root: { type: Sequelize.TEXT },
-  number: { type: Sequelize.INTEGER },
-  sense: {type: Sequelize.TEXT},
-  salish: { type: Sequelize.TEXT },
-  nicodemus: { type: Sequelize.TEXT },
-  symbol: {type: Sequelize.TEXT },
-  english: { type: Sequelize.TEXT },
-  grammar: { type: Sequelize.TEXT },
-  crossref: { type: Sequelize.TEXT },
-  variant: { type: Sequelize.TEXT },
-  cognate: { type: Sequelize.TEXT },
-  edit_note: { type: Sequelize.TEXT },
-  active: { type: Sequelize.TEXT },
-  prev_id: { type: Sequelize.INTEGER },
-  user_id: { type: Sequelize.TEXT }
-},
-{
-  timestamps: false,
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
 
-// Find all roots
-async function getRoots() {
-  const roots = await Root.findAll({
-    order: [
-        ['root', 'ASC']
-    ],
-    attributes: ['root', 'salish', 'nicodemus'],
-    limit: 100
-});
-  // const roots = await Roots.findAll({
-  //   attributes: ['salish', 'nicodemus']
-  // });
-  console.log(roots.every(root => root instanceof Root)); // true
-  console.log("All roots:", JSON.stringify(roots, null, 2));
+async function makeandReadUsers() {
+  await makeUsersTable()
+  await getUsers()
 }
 
-// next, build the Root Dictionary, Affix List and Stem List from files in the 'data' directory
-async function makeRootTable(){
-  //await Root.sync({force: true});
-  var fs = require('fs');
-  var contents = fs.readFileSync('data/fixed_entries_trim.txt', 'utf8');
-  var rows = contents.split("\n");
-  for (row of rows) {
-    row = row.replace(/(\r)/gm, "");
-    columns = row.split(":::");
-    console.log(columns)
-    if (columns[5]) {
-      await Root.create({
-        root: columns[2],
-        number: columns[3] ? parseInt(columns[3]) : 0,
-        sense: columns[4],
-        salish: columns[5],
-        nicodemus: columns[6],
-        symbol: columns[7],
-        english: columns[8],
-        grammar: columns[9],
-        crossref: columns[10],
-        variant: columns[11],
-        cognate: columns[12],
-        edit_note: columns[13],
-        active: 'Y',
-        prev_id: Sequelize.NULL,
-        user_id: "auth0|5e4c1705b6ef8d0e9ccffd60"
-      })
-    }
-  }
-  console.log("I have a roots table");
-}
+makeandReadUsers()
 
-//makeRootTable();
+// const Root = sequelize.define('root', {
+//   root: { type: Sequelize.STRING },
+//   number: { type: Sequelize.INTEGER },
+//   sense: {type: Sequelize.STRING},
+//   salish: { type: Sequelize.STRING },
+//   nicodemus: { type: Sequelize.STRING },
+//   symbol: {type: Sequelize.STRING},
+//   english: { type: Sequelize.STRING },
+//   grammar: { type: Sequelize.STRING},
+//   crossref: { type: Sequelize.STRING},
+//   variant: { type: Sequelize.STRING},
+//   cognate: { type: Sequelize.STRING},
+//   editnote: { type: Sequelize.STRING },
+//   active: { type: Sequelize.STRING(1) },
+//   prevId: { type: Sequelize.INTEGER },
+//   userId: { type: Sequelize.STRING }
+// },
+// {
+//   charset: 'utf8mb4',
+//   collate: 'utf8mb4_unicode_ci'
+// });
 
-getRoots();
+// // Find all roots
+// async function getRoots() {
+//   const roots = await Root.findAll({
+//     order: [
+//         ['root', 'ASC']
+//     ],
+//     attributes: ['root', 'salish', 'nicodemus'],
+//     limit: 100
+// });
+//   // const roots = await Roots.findAll({
+//   //   attributes: ['salish', 'nicodemus']
+//   // });
+//   console.log(roots.every(root => root instanceof Root)); // true
+//   console.log("All roots:", JSON.stringify(roots, null, 2));
+// }
+
+// // next, build the Root Dictionary, Affix List and Stem List from files in the 'data' directory
+// async function makeRootTable(){
+//   //await Root.sync({force: true});
+//   var fs = require('fs');
+//   var contents = fs.readFileSync('data/fixed_entries_trim.txt', 'utf8');
+//   var rows = contents.split("\n");
+//   for (row of rows) {
+//     row = row.replace(/(\r)/gm, "");
+//     columns = row.split(":::");
+//     console.log(columns)
+//     if (columns[5]) {
+//       await Root.create({
+//         root: columns[2],
+//         number: columns[3] ? parseInt(columns[3]) : 0,
+//         sense: columns[4],
+//         salish: columns[5],
+//         nicodemus: columns[6],
+//         symbol: columns[7],
+//         english: columns[8],
+//         grammar: columns[9],
+//         crossref: columns[10],
+//         variant: columns[11],
+//         cognate: columns[12],
+//         edit_note: columns[13],
+//         active: 'Y',
+//         prev_id: Sequelize.NULL,
+//         user_id: "auth0|5e4c1705b6ef8d0e9ccffd60"
+//       })
+//     }
+//   }
+//   console.log("I have a roots table");
+// }
+
+// //makeRootTable();
+
+// getRoots();
  
 /* const Affix = sequelize.define('affix', {
   type: { type: Sequelize.STRING },

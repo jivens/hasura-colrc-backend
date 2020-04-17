@@ -33,7 +33,7 @@ var client = new pg.Client({
   port: 5432,
   host: process.env.DB_HOST,
   ssl: true
-}); 
+});
 client.connect(err => {
   if (err) {
     console.error('connection error', err.stack)
@@ -626,7 +626,7 @@ async function makeTextFileMetaDataTable(){
       "\"identifierColrcNo\" : \"" + row.identifierColrcNo + "\" ,\n" +
       "\"langEng\" : \"" + row.langEng + "\" ,\n" +
       "\"langCrd\" : \"" + row.langCrd + "\" ,\n" +
-      "\"langBoth\" : \"" + row.langBoth + "\" }" 
+      "\"langBoth\" : \"" + row.langBoth + "\" }"
     });
   };
   console.log("I have a textfilemetadata table");
@@ -652,7 +652,7 @@ async function makeAudioSetMetaDataTable(){
       "\"identifierPermanent\" : \"" + row.identifierPermanent + "\" ,\n" +
       "\"identifierColrcUrl\" : \"" + row.identifierColrcUrl + "\" ,\n" +
       "\"identifierColrcNo\" : \"" + row.identifierColrcNo + "\" ,\n" +
-      "\"langCrd\" : \"" + row.langCrd + "\" \n}" 
+      "\"langCrd\" : \"" + row.langCrd + "\" \n}"
     });
   };
   console.log("I have a audiosetmetadata table");

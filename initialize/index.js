@@ -40,6 +40,11 @@ query.on('error', err => {
 }) */
 
 // ****** Set up default MYSQL connection START ****** //
+console.log(process.env.DB_NAME)
+console.log(process.env.DB_USERNAME)
+console.log(process.env.DB_PASSWORD)
+console.log(process.env.DB_HOST)
+console.log(process.env.DB_DIALECT)
  const sequelize = new Sequelize(
   process.env.DB_NAME,
   process.env.DB_USERNAME,
@@ -359,7 +364,7 @@ async function makeRoleTable() {
 async function makeRootTable(){
   await Root.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data/fixed_entries_trim.txt', 'utf8');
+  var contents = fs. readFileSync('data\\fixed_entries_trim.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.replace(/(\r)/gm, "");
@@ -390,7 +395,7 @@ async function makeRootTable(){
 async function makeAffixTable(){
   await Affix.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data/affixes_spelled.txt', 'utf8');
+  var contents = fs. readFileSync('data\\affixes_spelled.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.replace(/(\r)/gm, "");
@@ -416,7 +421,7 @@ async function makeAffixTable(){
 async function makeStemTable(){
   await Stem.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data/stems_both_lists_nodoak_spelled.txt', 'utf8');
+  var contents = fs. readFileSync('data\\stems_both_lists_nodoak_spelled.txt', 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.trim();
@@ -763,4 +768,4 @@ async function makeTables(){
 }
 
 // // below call the build function(s) you want.
-// makeTables()
+makeTables()

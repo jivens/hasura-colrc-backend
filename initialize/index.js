@@ -114,7 +114,7 @@ const Root = sequelize.define('root', {
   editnote: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -131,7 +131,7 @@ const Affix = sequelize.define('affix', {
   editnote: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -149,7 +149,7 @@ const Stem = sequelize.define('stem', {
   editnote: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -164,7 +164,7 @@ const Spelling = sequelize.define('spelling', {
   note: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -212,7 +212,7 @@ const Bibliography = sequelize.define('bibliography', {
   linktext: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -227,7 +227,7 @@ const Text = sequelize.define('text', {
   tnumber: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -240,10 +240,10 @@ const Textfile = sequelize.define('textfile', {
   resType: { type: Sequelize.TEXT },
   msType: { type: Sequelize.TEXT },
   fileType: { type: Sequelize.TEXT },
-  textId: { type: Sequelize.TEXT },
+  textId: { type: Sequelize.INTEGER },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -255,7 +255,7 @@ const Textimage = sequelize.define('textimage', {
   src: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -276,8 +276,8 @@ const Audioset = sequelize.define('audioset', {
   title: { type: Sequelize.TEXT },
   speaker: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
-  textId: { type: Sequelize.TEXT },
-  userId: { type: Sequelize.TEXT }
+  textId: { type: Sequelize.INTEGER },
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -290,7 +290,7 @@ const Audiofile = sequelize.define('audiofile', {
   type: { type: Sequelize.TEXT },
   direct: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -313,7 +313,7 @@ const Elicitationset = sequelize.define('elicitationset', {
   transcription: { type: Sequelize.TEXT },
   editnote: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
-  userId: { type: Sequelize.TEXT },
+  userId: { type: Sequelize.INTEGER },
   prevID: { type: Sequelize.INTEGER }
 },
 {
@@ -326,7 +326,7 @@ const Elicitationfile = sequelize.define('elicitationfile', {
   type: { type: Sequelize.TEXT },
   direct: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -540,7 +540,7 @@ async function makeTextTable(){
       tnumber: row.tnumber,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     });
   };
   console.log("I have a texts table");
@@ -559,7 +559,7 @@ async function makeTextfileTable(){
       textID: row.textId,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     })
     // let myText = await Text.findOne({  where: {id: row.textId} })
     // await newTextfile.addText(myText)
@@ -577,7 +577,7 @@ async function makeTextimageTable(){
       src: row.src,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     })
     // let myTextFile = await Textfile.findOne({  where: {id: row.textfileId} })
     // await newTextImage.addTextfile(myTextFile)
@@ -650,10 +650,10 @@ async function makeAudiosetTable(){
     let newAudioSet = await Audioset.create({
       title: row.title,
       speaker: row.speaker,
-      textId: row.textId,
+      textId: row.textId === '' ? Sequelize.NULL : parseInt(row.textId),
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     })
     // let myText = await Text.findOne({  where: {id: row.textId} })
     // await newAudioSet.addText(myText)
@@ -673,7 +673,7 @@ async function makeAudiofileTable(){
       direct: row.direct,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     })
     // let myAudioSet = await Audioset.findOne({  where: {id: row.audiosetId} })
     // await newAudioFile.addAudioset(myAudioSet)
@@ -694,7 +694,7 @@ async function makeElicitationsetTable(){
       editnote: Sequelize.NULL,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     });
   };
   console.log("I have an elicitationsets table");
@@ -711,7 +711,7 @@ async function makeElicitationfileTable(){
       direct: row.direct,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     })
     // let myElicitationSet = await Elicitationset.findOne({  where: {id: row.elicitationId} })
     // await console.log("Elicitation set id: " + myElicitationSet.id + ", elicitation title: " + myElicitationSet.title)
@@ -737,7 +737,7 @@ async function makeandReadUsers() {
   await getUsers()
 }
 
-makeandReadUsers()
+//makeandReadUsers()
 
 
 
@@ -765,6 +765,7 @@ async function makeTables(){
   await makeConsonantTable();
   await makeVowelTable();
   await makeMedia();
+  await makeRoleTable();
 }
 
 // // below call the build function(s) you want.

@@ -1,6 +1,3 @@
-const data = require('./Data');
-const textFileMetaDatafile = require('./data/metadata_tables')
-const audioSetMetaDatafile = require('./data/metadata_audio')
 const express = require('express');
 const app = express();
 const assert = require('assert');
@@ -8,6 +5,25 @@ const assert = require('assert');
 require('dotenv').config();
 // ORM (Object-Relational Mapper library)
 const Sequelize = require('sequelize');
+const path = require('path');
+const dataPath = path.resolve(__dirname,'Data');
+const txtMetaPath = path.resolve(__dirname, 'data', 'metadata_tables')
+const audioMetaPath = path.resolve(__dirname, 'data', 'metadata_audio')
+const data = require(dataPath);
+const textFileMetaDatafile = require(txtMetaPath);
+const audioSetMetaDatafile = require(audioMetaPath);
+
+ 
+// const data = require('./Data');
+// const textFileMetaDatafile = require('./data/metadata_tables')
+// const audioSetMetaDatafile = require('./data/metadata_audio')
+// const express = require('express');
+// const app = express();
+// const assert = require('assert');
+// // store config variables in dotenv
+// require('dotenv').config();
+// // ORM (Object-Relational Mapper library)
+// const Sequelize = require('sequelize');
 
 /* const pg = require('pg');
 var client = new pg.Client({
@@ -359,7 +375,8 @@ async function makeRoleTable() {
 async function makeRootTable(){
   await Root.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\fixed_entries_trim.txt', 'utf8');
+  var contentpath = path.resolve(__dirname, 'data', 'fixed_entries_trim.txt')
+  var contents = fs. readFileSync(contentpath, 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.replace(/(\r)/gm, "");
@@ -387,10 +404,12 @@ async function makeRootTable(){
   console.log("I have a roots table");
 }
 
+
 async function makeAffixTable(){
   await Affix.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\affixes_spelled.txt', 'utf8');
+  var contentpath = path.resolve(__dirname, 'data', 'affixes_spelled.txt')
+  var contents = fs. readFileSync(contentpath, 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.replace(/(\r)/gm, "");
@@ -416,7 +435,8 @@ async function makeAffixTable(){
 async function makeStemTable(){
   await Stem.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data\\stems_both_lists_nodoak_spelled.txt', 'utf8');
+  var contentpath = path.resolve(__dirname, 'data', 'stems_both_lists_nodoak_spelled.txt')
+  var contents = fs. readFileSync(contentpath, 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.trim();

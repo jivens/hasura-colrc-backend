@@ -1,6 +1,3 @@
-const data = require('./Data');
-const textFileMetaDatafile = require('./data/metadata_tables')
-const audioSetMetaDatafile = require('./data/metadata_audio')
 const express = require('express');
 const app = express();
 const assert = require('assert');
@@ -8,6 +5,25 @@ const assert = require('assert');
 require('dotenv').config();
 // ORM (Object-Relational Mapper library)
 const Sequelize = require('sequelize');
+const path = require('path');
+const dataPath = path.resolve(__dirname,'Data');
+const txtMetaPath = path.resolve(__dirname, 'data', 'metadata_tables')
+const audioMetaPath = path.resolve(__dirname, 'data', 'metadata_audio')
+const data = require(dataPath);
+const textFileMetaDatafile = require(txtMetaPath);
+const audioSetMetaDatafile = require(audioMetaPath);
+
+ 
+// const data = require('./Data');
+// const textFileMetaDatafile = require('./data/metadata_tables')
+// const audioSetMetaDatafile = require('./data/metadata_audio')
+// const express = require('express');
+// const app = express();
+// const assert = require('assert');
+// // store config variables in dotenv
+// require('dotenv').config();
+// // ORM (Object-Relational Mapper library)
+// const Sequelize = require('sequelize');
 
 /* const pg = require('pg');
 var client = new pg.Client({
@@ -17,7 +33,7 @@ var client = new pg.Client({
   port: 5432,
   host: process.env.DB_HOST,
   ssl: true
-}); 
+});
 client.connect(err => {
   if (err) {
     console.error('connection error', err.stack)
@@ -40,6 +56,11 @@ query.on('error', err => {
 }) */
 
 // ****** Set up default MYSQL connection START ****** //
+console.log(process.env.DB_NAME)
+console.log(process.env.DB_USERNAME)
+console.log(process.env.DB_PASSWORD)
+console.log(process.env.DB_HOST)
+console.log(process.env.DB_DIALECT)
  const sequelize = new Sequelize(
   process.env.DB_NAME,
   process.env.DB_USERNAME,
@@ -235,7 +256,7 @@ const Textfile = sequelize.define('textfile', {
   resType: { type: Sequelize.TEXT },
   msType: { type: Sequelize.TEXT },
   fileType: { type: Sequelize.TEXT },
-  textId: { type: Sequelize.TEXT },
+  textId: { type: Sequelize.INTEGER },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
@@ -271,7 +292,11 @@ const Audioset = sequelize.define('audioset', {
   title: { type: Sequelize.TEXT },
   speaker: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
+<<<<<<< HEAD
   textId: { type: Sequelize.TEXT },
+=======
+  textId: { type: Sequelize.INTEGER },
+>>>>>>> 7c21538851b4beb9f01a6b7b771fc2b2ce0ddb01
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -359,7 +384,8 @@ async function makeRoleTable() {
 async function makeRootTable(){
   await Root.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data/fixed_entries_trim.txt', 'utf8');
+  var contentpath = path.resolve(__dirname, 'data', 'fixed_entries_trim.txt')
+  var contents = fs. readFileSync(contentpath, 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.replace(/(\r)/gm, "");
@@ -387,10 +413,12 @@ async function makeRootTable(){
   console.log("I have a roots table");
 }
 
+
 async function makeAffixTable(){
   await Affix.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data/affixes_spelled.txt', 'utf8');
+  var contentpath = path.resolve(__dirname, 'data', 'affixes_spelled.txt')
+  var contents = fs. readFileSync(contentpath, 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.replace(/(\r)/gm, "");
@@ -416,7 +444,8 @@ async function makeAffixTable(){
 async function makeStemTable(){
   await Stem.sync({force: true});
   var fs = require('fs');
-  var contents = fs. readFileSync('data/stems_both_lists_nodoak_spelled.txt', 'utf8');
+  var contentpath = path.resolve(__dirname, 'data', 'stems_both_lists_nodoak_spelled.txt')
+  var contents = fs. readFileSync(contentpath, 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
     row = row.trim();
@@ -535,7 +564,7 @@ async function makeTextTable(){
       tnumber: row.tnumber,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     });
   };
   console.log("I have a texts table");
@@ -554,7 +583,7 @@ async function makeTextfileTable(){
       textID: row.textId,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     })
     // let myText = await Text.findOne({  where: {id: row.textId} })
     // await newTextfile.addText(myText)
@@ -572,7 +601,7 @@ async function makeTextimageTable(){
       src: row.src,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     })
     // let myTextFile = await Textfile.findOne({  where: {id: row.textfileId} })
     // await newTextImage.addTextfile(myTextFile)
@@ -606,7 +635,7 @@ async function makeTextFileMetaDataTable(){
       "\"identifierColrcNo\" : \"" + row.identifierColrcNo + "\" ,\n" +
       "\"langEng\" : \"" + row.langEng + "\" ,\n" +
       "\"langCrd\" : \"" + row.langCrd + "\" ,\n" +
-      "\"langBoth\" : \"" + row.langBoth + "\" }" 
+      "\"langBoth\" : \"" + row.langBoth + "\" }"
     });
   };
   console.log("I have a textfilemetadata table");
@@ -632,7 +661,7 @@ async function makeAudioSetMetaDataTable(){
       "\"identifierPermanent\" : \"" + row.identifierPermanent + "\" ,\n" +
       "\"identifierColrcUrl\" : \"" + row.identifierColrcUrl + "\" ,\n" +
       "\"identifierColrcNo\" : \"" + row.identifierColrcNo + "\" ,\n" +
-      "\"langCrd\" : \"" + row.langCrd + "\" \n}" 
+      "\"langCrd\" : \"" + row.langCrd + "\" \n}"
     });
   };
   console.log("I have a audiosetmetadata table");
@@ -645,10 +674,10 @@ async function makeAudiosetTable(){
     let newAudioSet = await Audioset.create({
       title: row.title,
       speaker: row.speaker,
-      textId: row.textId,
+      textId: row.textId === '' ? Sequelize.NULL : parseInt(row.textId),
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     })
     // let myText = await Text.findOne({  where: {id: row.textId} })
     // await newAudioSet.addText(myText)
@@ -668,7 +697,7 @@ async function makeAudiofileTable(){
       direct: row.direct,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     })
     // let myAudioSet = await Audioset.findOne({  where: {id: row.audiosetId} })
     // await newAudioFile.addAudioset(myAudioSet)
@@ -689,7 +718,7 @@ async function makeElicitationsetTable(){
       editnote: Sequelize.NULL,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     });
   };
   console.log("I have an elicitationsets table");
@@ -706,7 +735,7 @@ async function makeElicitationfileTable(){
       direct: row.direct,
       active: 'Y',
       prevId: Sequelize.NULL,
-      userId: '1'
+      userId: 1
     })
     // let myElicitationSet = await Elicitationset.findOne({  where: {id: row.elicitationId} })
     // await console.log("Elicitation set id: " + myElicitationSet.id + ", elicitation title: " + myElicitationSet.title)
@@ -732,7 +761,7 @@ async function makeandReadUsers() {
   await getUsers()
 }
 
-makeandReadUsers()
+//makeandReadUsers()
 
 
 
@@ -760,7 +789,12 @@ async function makeTables(){
   await makeConsonantTable();
   await makeVowelTable();
   await makeMedia();
+  await makeRoleTable();
 }
 
 // // below call the build function(s) you want.
+<<<<<<< HEAD
 makeTables()
+=======
+makeTables()
+>>>>>>> 7c21538851b4beb9f01a6b7b771fc2b2ce0ddb01

@@ -9982,6 +9982,26 @@ const elicitationfiles = [
     },
   ]
 
+  const roles = [
+    {
+      "role_code": "admin",
+      "role_value": "Admin"
+    },
+    {
+     "role_code": "update",
+     "role_value": "Update"
+   },
+   {
+     "role_code": "owner",
+     "role_value": "Owner"
+   },
+   {
+     "role_code": "view",
+     "role_value": "View"
+   }
+  ]
+  
+
 module.exports = {
   spelling: spelling,
   bibliography: bibliography,
@@ -9994,5 +10014,6 @@ module.exports = {
   audiofiles: audiofiles,
   elicitationsets: elicitationsets,
   elicitationfiles: elicitationfiles,
-  users: users
+  users: users,
+  roles: roles
 };

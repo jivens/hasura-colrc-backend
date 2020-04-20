@@ -109,7 +109,7 @@ const Root = sequelize.define('root', {
   editnote: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -126,7 +126,7 @@ const Affix = sequelize.define('affix', {
   editnote: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -144,7 +144,7 @@ const Stem = sequelize.define('stem', {
   editnote: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -159,7 +159,7 @@ const Spelling = sequelize.define('spelling', {
   note: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -207,7 +207,7 @@ const Bibliography = sequelize.define('bibliography', {
   linktext: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -222,7 +222,7 @@ const Text = sequelize.define('text', {
   tnumber: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -238,7 +238,7 @@ const Textfile = sequelize.define('textfile', {
   textId: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -250,7 +250,7 @@ const Textimage = sequelize.define('textimage', {
   src: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -272,7 +272,7 @@ const Audioset = sequelize.define('audioset', {
   speaker: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
   textId: { type: Sequelize.TEXT },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -285,7 +285,7 @@ const Audiofile = sequelize.define('audiofile', {
   type: { type: Sequelize.TEXT },
   direct: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -308,7 +308,7 @@ const Elicitationset = sequelize.define('elicitationset', {
   transcription: { type: Sequelize.TEXT },
   editnote: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
-  userId: { type: Sequelize.TEXT },
+  userId: { type: Sequelize.INTEGER },
   prevID: { type: Sequelize.INTEGER }
 },
 {
@@ -321,7 +321,7 @@ const Elicitationfile = sequelize.define('elicitationfile', {
   type: { type: Sequelize.TEXT },
   direct: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
-  userId: { type: Sequelize.TEXT }
+  userId: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -763,4 +763,4 @@ async function makeTables(){
 }
 
 // // below call the build function(s) you want.
-// makeTables()
+makeTables()

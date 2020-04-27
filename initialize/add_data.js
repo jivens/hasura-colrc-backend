@@ -292,11 +292,7 @@ const Audioset = sequelize.define('audioset', {
   title: { type: Sequelize.TEXT },
   speaker: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
-<<<<<<< HEAD
-  textId: { type: Sequelize.TEXT },
-=======
   textId: { type: Sequelize.INTEGER },
->>>>>>> 7c21538851b4beb9f01a6b7b771fc2b2ce0ddb01
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -356,7 +352,7 @@ const Elicitationfile = sequelize.define('elicitationfile', {
 
 async function makeUsersTable(){
   // force: true will drop the table if it already exists
-  await User.sync({force: true})
+  //await User.sync({force: true})
   for (row of data.users) {
     // Table created
     await User.create({
@@ -371,7 +367,7 @@ async function makeUsersTable(){
 }
 
 async function makeRoleTable() {
-  await Role.sync({force: true})
+  //await Role.sync({force: true})
   for (row of data.roles) {
     await Role.create({
       role_code: row.role_code,
@@ -382,7 +378,7 @@ async function makeRoleTable() {
 
 // next, build the Root Dictionary, Affix List and Stem List from files in the 'data' directory
 async function makeRootTable(){
-  await Root.sync({force: true});
+  //await Root.sync({force: true});
   var fs = require('fs');
   var contentpath = path.resolve(__dirname, 'data', 'fixed_entries_trim.txt')
   var contents = fs. readFileSync(contentpath, 'utf8');
@@ -415,7 +411,7 @@ async function makeRootTable(){
 
 
 async function makeAffixTable(){
-  await Affix.sync({force: true});
+  //await Affix.sync({force: true});
   var fs = require('fs');
   var contentpath = path.resolve(__dirname, 'data', 'affixes_spelled.txt')
   var contents = fs. readFileSync(contentpath, 'utf8');
@@ -442,7 +438,7 @@ async function makeAffixTable(){
 }
 
 async function makeStemTable(){
-  await Stem.sync({force: true});
+  //await Stem.sync({force: true});
   var fs = require('fs');
   var contentpath = path.resolve(__dirname, 'data', 'stems_both_lists_nodoak_spelled.txt')
   var contents = fs. readFileSync(contentpath, 'utf8');
@@ -472,7 +468,7 @@ async function makeStemTable(){
 
 // make the bibliography table, using Data.js
 async function makeBibliographyTable(){
-	await Bibliography.sync({force: true});
+	//await Bibliography.sync({force: true});
 	var contents = data.bibliography;
   for (row of data.bibliography) {
 	//contents.forEach(async function (row) {
@@ -493,7 +489,7 @@ async function makeBibliographyTable(){
 
 // this table builds the spelling list, using Data.js
 async function makeSpellingTable(){
-  await Spelling.sync({force: true});
+  //await Spelling.sync({force: true});
   for (row of data.spelling) {
   //data.spelling.forEach(async function (row) {
     await Spelling.create({
@@ -513,7 +509,7 @@ async function makeSpellingTable(){
 // make the consonant chart, using Data.js
 async function makeConsonantTable(){
   console.log(data.consonants)
-  await Consonant.sync({force: true});
+  //await Consonant.sync({force: true});
   for (row of data.consonants) {
   //data.consonants.forEach(async function (row) {
     await Consonant.create({
@@ -537,7 +533,7 @@ async function makeConsonantTable(){
 
 // make the vowel chart, using Data.js
 async function makeVowelTable(){
-  await Vowel.sync({force: true});
+  //await Vowel.sync({force: true});
   for (row of data.vowels) {
   //data.vowels.forEach(async function (row) {
     await Vowel.create({
@@ -553,7 +549,7 @@ async function makeVowelTable(){
 // media tables are next, and these are complicated.
 // make the Text table, using Data.js
 async function makeTextTable(){
-  await Text.sync({force: true});
+  //await Text.sync({force: true});
   for (row of data.texts) {
   //data.texts.forEach(async function (row) {
     await Text.create({
@@ -572,7 +568,7 @@ async function makeTextTable(){
 
 
 async function makeTextfileTable(){
-  await Textfile.sync({force: true});
+  //await Textfile.sync({force: true});
   for (row of data.textfiles) {
     let newTextfile = await Textfile.create({
       subdir: row.subdir,
@@ -594,7 +590,7 @@ async function makeTextfileTable(){
 // the textimage table requires the filetoimagerelation table and the textfile table
 async function makeTextimageTable(){
   await makeTextfileTable();
-  await Textimage.sync({force: true});
+  //await Textimage.sync({force: true});
   for (row of data.textimages) {
     let newTextImage = await Textimage.create({
       subdir: row.subdir,
@@ -610,7 +606,7 @@ async function makeTextimageTable(){
 }
 
 async function makeTextFileMetaDataTable(){
-  await TextFileMetaData.sync({force: true});
+  //await TextFileMetaData.sync({force: true});
   for (row of textFileMetaDatafile.metadata) {
     await TextFileMetaData.create({
       textFileId: row.textFileId,
@@ -642,7 +638,7 @@ async function makeTextFileMetaDataTable(){
 }
 
 async function makeAudioSetMetaDataTable(){
-  await AudioSetMetaData.sync({force: true});
+  //await AudioSetMetaData.sync({force: true});
   for (row of audioSetMetaDatafile.audiometadata) {
     await AudioSetMetaData.create({
       audioSetId: row.audioSetId,
@@ -669,7 +665,7 @@ async function makeAudioSetMetaDataTable(){
 
 // make the audioset table
 async function makeAudiosetTable(){
-  await Audioset.sync({force: true});
+  //await Audioset.sync({force: true});
   for (row of data.audiosets) {
     let newAudioSet = await Audioset.create({
       title: row.title,
@@ -688,7 +684,7 @@ async function makeAudiosetTable(){
 // make the audiofile table from Data.js
 async function makeAudiofileTable(){
   await makeAudiosetTable()
-  await Audiofile.sync({force: true})
+  //await Audiofile.sync({force: true})
   for (row of data.audiofiles) {
     let newAudioFile = await Audiofile.create({
       subdir: row.subdir,
@@ -707,7 +703,7 @@ async function makeAudiofileTable(){
 
 // make the elicitationset table
 async function makeElicitationsetTable(){
-  await Elicitationset.sync({force: true});
+  //await Elicitationset.sync({force: true});
   for (row of data.elicitationsets) {
   //data.elicitationsets.forEach(await async function (row) {
     await Elicitationset.create({
@@ -727,7 +723,7 @@ async function makeElicitationsetTable(){
 // make the elicitationfile table from Data.js
 async function makeElicitationfileTable(){
   await makeElicitationsetTable();
-  await Elicitationfile.sync({force: true});
+  //await Elicitationfile.sync({force: true});
   for (row of data.elicitationfiles) {
     let newElicitationFile = await Elicitationfile.create({
       src: row.src,
@@ -793,8 +789,4 @@ async function makeTables(){
 }
 
 // // below call the build function(s) you want.
-<<<<<<< HEAD
 makeTables()
-=======
-makeTables()
->>>>>>> 7c21538851b4beb9f01a6b7b771fc2b2ce0ddb01

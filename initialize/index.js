@@ -292,7 +292,11 @@ const Audioset = sequelize.define('audioset', {
   title: { type: Sequelize.TEXT },
   speaker: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
+<<<<<<< HEAD
+  textId: { type: Sequelize.TEXT },
+=======
   textId: { type: Sequelize.INTEGER },
+>>>>>>> 7c21538851b4beb9f01a6b7b771fc2b2ce0ddb01
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -789,4 +793,8 @@ async function makeTables(){
 }
 
 // // below call the build function(s) you want.
+<<<<<<< HEAD
 makeTables()
+=======
+makeTables()
+>>>>>>> 7c21538851b4beb9f01a6b7b771fc2b2ce0ddb01

@@ -795,6 +795,6 @@ async function makeTables(){
 }
 
 // // below call the build function(s) you want.
-//makeTables()
-makeAudiosetTable()
+makeTables()
+//makeAudiosetTable()
 //makeAudiofileTable()

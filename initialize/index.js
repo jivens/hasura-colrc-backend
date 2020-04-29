@@ -13,7 +13,7 @@ const data = require(dataPath);
 const textFileMetaDatafile = require(txtMetaPath);
 const audioSetMetaDatafile = require(audioMetaPath);
 
- 
+
 // const data = require('./Data');
 // const textFileMetaDatafile = require('./data/metadata_tables')
 // const audioSetMetaDatafile = require('./data/metadata_audio')
@@ -675,7 +675,7 @@ async function makeAudiosetTable(){
     let newAudioSet = await Audioset.create({
       title: row.title,
       speaker: row.speaker,
-      textId: row.textId === '' ? Sequelize.NULL : parseInt(row.textId),
+      textId: row.textId === '' ? Sequelize.NULL : row.textId,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: 1
@@ -795,6 +795,6 @@ async function makeTables(){
 }
 
 // // below call the build function(s) you want.
-makeTables()
-
+//makeTables()
+makeAudiosetTable()
 //makeAudiofileTable()

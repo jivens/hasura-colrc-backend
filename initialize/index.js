@@ -269,6 +269,7 @@ const Textfile = sequelize.define('textfile', {
 const Textimage = sequelize.define('textimage', {
   subdir: { type: Sequelize.TEXT },
   src: { type: Sequelize.TEXT },
+  textFileId: { type: Sequelize.INTEGER },
   active: { type: Sequelize.TEXT },
   prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
@@ -292,11 +293,7 @@ const Audioset = sequelize.define('audioset', {
   title: { type: Sequelize.TEXT },
   speaker: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
-<<<<<<< HEAD
-  textId: { type: Sequelize.TEXT },
-=======
   textId: { type: Sequelize.INTEGER },
->>>>>>> 7c21538851b4beb9f01a6b7b771fc2b2ce0ddb01
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -310,6 +307,8 @@ const Audiofile = sequelize.define('audiofile', {
   type: { type: Sequelize.TEXT },
   direct: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
+  audiosetId: { type: Sequelize.INTEGER },
+  prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -345,6 +344,7 @@ const Elicitationfile = sequelize.define('elicitationfile', {
   src: { type: Sequelize.TEXT },
   type: { type: Sequelize.TEXT },
   direct: { type: Sequelize.TEXT },
+  elicitationSetId: { type: Sequelize.INTEGER },
   active: { type: Sequelize.TEXT },
   userId: { type: Sequelize.INTEGER }
 },
@@ -580,7 +580,7 @@ async function makeTextfileTable(){
       resType: row.resType,
       msType: row.msType,
       fileType: row.fileType,
-      textID: row.textId,
+      textId: row.textId,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: 1
@@ -599,6 +599,7 @@ async function makeTextimageTable(){
     let newTextImage = await Textimage.create({
       subdir: row.subdir,
       src: row.src,
+      textFileId: row.textfileId,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: 1
@@ -687,7 +688,7 @@ async function makeAudiosetTable(){
 
 // make the audiofile table from Data.js
 async function makeAudiofileTable(){
-  await makeAudiosetTable()
+  //await makeAudiosetTable()
   await Audiofile.sync({force: true})
   for (row of data.audiofiles) {
     let newAudioFile = await Audiofile.create({
@@ -696,6 +697,7 @@ async function makeAudiofileTable(){
       type: row.type,
       direct: row.direct,
       active: 'Y',
+      audiosetId: row.audiosetId,
       prevId: Sequelize.NULL,
       userId: 1
     })
@@ -704,7 +706,6 @@ async function makeAudiofileTable(){
   }
   console.log("I have an audiofiles table")
 }
-
 // make the elicitationset table
 async function makeElicitationsetTable(){
   await Elicitationset.sync({force: true});
@@ -733,6 +734,7 @@ async function makeElicitationfileTable(){
       src: row.src,
       type: row.type,
       direct: row.direct,
+      elicitationSetId: row.elicitationId,
       active: 'Y',
       prevId: Sequelize.NULL,
       userId: 1
@@ -793,8 +795,6 @@ async function makeTables(){
 }
 
 // // below call the build function(s) you want.
-<<<<<<< HEAD
 makeTables()
-=======
-makeTables()
->>>>>>> 7c21538851b4beb9f01a6b7b771fc2b2ce0ddb01
+
+//makeAudiofileTable()

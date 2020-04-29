@@ -306,6 +306,8 @@ const Audiofile = sequelize.define('audiofile', {
   type: { type: Sequelize.TEXT },
   direct: { type: Sequelize.TEXT },
   active: { type: Sequelize.TEXT },
+  audiosetId: { type: Sequelize.INTEGER },
+  prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -666,6 +668,9 @@ async function makeAudioSetMetaDataTable(){
 // make the audioset table
 async function makeAudiosetTable(){
   //await Audioset.sync({force: true});
+  await Audioset.destroy({
+    where: {}
+  })
   for (row of data.audiosets) {
     let newAudioSet = await Audioset.create({
       title: row.title,
@@ -683,8 +688,11 @@ async function makeAudiosetTable(){
 
 // make the audiofile table from Data.js
 async function makeAudiofileTable(){
-  await makeAudiosetTable()
+  //await makeAudiosetTable()
   //await Audiofile.sync({force: true})
+  await Audiofile.destroy({
+    where: {}
+  })
   for (row of data.audiofiles) {
     let newAudioFile = await Audiofile.create({
       subdir: row.subdir,
@@ -692,6 +700,7 @@ async function makeAudiofileTable(){
       type: row.type,
       direct: row.direct,
       active: 'Y',
+      audiosetId: row.audiosetId,
       prevId: Sequelize.NULL,
       userId: 1
     })
@@ -789,4 +798,8 @@ async function makeTables(){
 }
 
 // // below call the build function(s) you want.
-makeTables()
+//makeTables()
+
+//makeAudiofileTable()
+
+makeAudiosetTable()

@@ -781,6 +781,7 @@ async function makeMedia(){
 
 async function makeTables(){
   await makeAudioSetMetaDataTable();
+  await makeAudiosetTable();
   await makeTextFileMetaDataTable();
   await makeUsersTable();
   await makeRootTable();

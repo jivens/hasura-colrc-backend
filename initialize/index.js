@@ -97,8 +97,7 @@ const User = sequelize.define('user', {
   last: { type: Sequelize.TEXT },
   username: { type: Sequelize.TEXT },
   email: { type: Sequelize.TEXT, unique: true },
-  password: { type: Sequelize.TEXT },
-  roles: { type: Sequelize.TEXT }
+  password: { type: Sequelize.TEXT }
 },
 {
   charset: 'utf8mb4',
@@ -114,6 +113,27 @@ const Role = sequelize.define('role', {
   charset: 'utf8mb4',
   collate: 'utf8mb4_unicode_ci'
 })
+
+const UserToRoleRelation = sequelize.define('user_roles', {
+  userId: { type: Sequelize.INTEGER },
+  roleId: { type: Sequelize.INTEGER },
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
+User.belongsToMany(Role, {
+  through: 'user_roles',
+  foreignKey: 'userId', 
+  otherKey: 'roleId'
+});
+Role.belongsToMany(User, {
+  through: 'user_roles',
+  foreignKey: 'roleId',
+  otherKey: 'userId'
+});
+
 
 const Root = sequelize.define('root', {
   root: { type: Sequelize.TEXT },
@@ -364,8 +384,7 @@ async function makeUsersTable(){
       last: row.last,
       username: row.username,
       email: row.email,
-      password: row.password,
-      roles: row.roles
+      password: row.password
     });
   }
 }
@@ -376,6 +395,16 @@ async function makeRoleTable() {
     await Role.create({
       role_code: row.role_code,
       role_value: row.role_value
+    })
+  }
+}
+
+async function makeUserRolesTable() {
+  await UserToRoleRelation.sync({force: true})
+  for (row of data.user_roles) {
+    await UserToRoleRelation.create({
+      userId: row.user,
+      roleId: row.role
     })
   }
 }
@@ -780,10 +809,9 @@ async function makeMedia(){
 }
 
 async function makeTables(){
-  await makeAudioSetMetaDataTable();
-  await makeAudiosetTable();
-  await makeTextFileMetaDataTable();
   await makeUsersTable();
+  await makeRoleTable();
+  await makeUserRolesTable();
   await makeRootTable();
   await makeStemTable();
   await makeAffixTable();
@@ -791,8 +819,10 @@ async function makeTables(){
   await makeSpellingTable();
   await makeConsonantTable();
   await makeVowelTable();
+  await makeAudioSetMetaDataTable();
+  await makeAudiosetTable();
+  await makeTextFileMetaDataTable();
   await makeMedia();
-  await makeRoleTable();
 }
 
 // // below call the build function(s) you want.

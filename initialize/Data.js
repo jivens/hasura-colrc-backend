@@ -9953,32 +9953,28 @@ const elicitationfiles = [
       last: "Data",
       username: "original",
       email: 'colrc@gmail.com',
-      password: 'colrc@gmail.com',
-      roles: "admin"
+      password: 'colrc@gmail.com'
     },
     {
       first: "Update",
       last: "Data",
       username: "update",
       email: 'update@gmail.com',
-      password: 'update@gmail.com',
-      roles: "update"
+      password: 'update@gmail.com'
     },
     {
       first: "Owner",
       last: "Data",
       username: "owner",
       email: 'owner@gmail.com',
-      password: 'owner@gmail.com',
-      roles: "owner"
+      password: 'owner@gmail.com'
     },
     {
       first: "View",
       last: "Data",
       username: "view",
       email: 'view@gmail.com',
-      password: 'view@gmail.com',
-      roles: "view"
+      password: 'view@gmail.com'
     },
   ]
 
@@ -10000,7 +9996,29 @@ const elicitationfiles = [
      "role_value": "View"
    }
   ]
-  
+
+const user_roles = [
+  {
+    "user": 1,
+    "role": 1
+  },
+  {
+    "user": 2,
+    "role": 2
+  },
+  {
+    "user": 3,
+    "role": 3
+  },
+  {
+    "user": 4,
+    "role": 4
+  },
+  {
+    "user": 1,
+    "role": 4
+  },
+]
 
 module.exports = {
   spelling: spelling,
@@ -10015,5 +10033,6 @@ module.exports = {
   elicitationsets: elicitationsets,
   elicitationfiles: elicitationfiles,
   users: users,
-  roles: roles
+  roles: roles,
+  user_roles: user_roles,
 };

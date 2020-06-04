@@ -10018,6 +10018,10 @@ const user_roles = [
     "user": 1,
     "role": 4
   },
+  {
+    "user": 1,
+    "role": 3
+  },
 ]
 
 module.exports = {

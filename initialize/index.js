@@ -6,6 +6,7 @@ require('dotenv').config();
 // ORM (Object-Relational Mapper library)
 const Sequelize = require('sequelize');
 const path = require('path');
+const { active } = require('./Data');
 const dataPath = path.resolve(__dirname,'Data');
 const txtMetaPath = path.resolve(__dirname, 'data', 'metadata_tables')
 const audioMetaPath = path.resolve(__dirname, 'data', 'metadata_audio')
@@ -134,6 +135,13 @@ Role.belongsToMany(User, {
   otherKey: 'userId'
 });
 
+const Active = sequelize.define('active', {
+  value: { type: Sequelize.TEXT, unique: true }
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+})
 
 const Root = sequelize.define('root', {
   root: { type: Sequelize.TEXT },
@@ -158,14 +166,14 @@ const Root = sequelize.define('root', {
 });
 
 const Affix = sequelize.define('affix', {
-  type: { type: Sequelize.TEXT },
+  type: { type: Sequelize.INTEGER },
   salish: { type: Sequelize.TEXT },
   nicodemus: { type: Sequelize.TEXT },
   english: { type: Sequelize.TEXT },
   link: { type: Sequelize.TEXT },
   page: { type: Sequelize.TEXT },
   editnote: { type: Sequelize.TEXT },
-  active: { type: Sequelize.TEXT },
+  active: { type: Sequelize.INTEGER },
   prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
@@ -173,6 +181,14 @@ const Affix = sequelize.define('affix', {
   charset: 'utf8mb4',
   collate: 'utf8mb4_unicode_ci'
 });
+
+const AffixTypes = sequelize.define('affix_types', {
+  value: { type: Sequelize.TEXT, unique: true }
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+})
 
 const Stem = sequelize.define('stem', {
   category: { type: Sequelize.TEXT },
@@ -409,6 +425,24 @@ async function makeUserRolesTable() {
   }
 }
 
+async function makeActiveTable() {
+  await Active.sync({force: true})
+  for (row of data.active) {
+    await Active.create({
+      value: row.value
+    })
+  }
+}
+
+async function makeAffixTypesTable() {
+  await AffixTypes.sync({force: true})
+  for (row of data.affix_types) {
+    await AffixTypes.create({
+      value: row.value
+    })
+  }
+}
+
 // next, build the Root Dictionary, Affix List and Stem List from files in the 'data' directory
 async function makeRootTable(){
   await Root.sync({force: true});
@@ -453,15 +487,25 @@ async function makeAffixTable(){
     row = row.replace(/(\r)/gm, "");
     columns = row.split(":::");
     if (columns[2]) {
+      let type_code = 1
+      if ( columns[0] === 'directional') {
+        type_code = 1
+      } else if ( columns[0] === 'locative') {
+        type_code = 2
+      } else if ( columns[0] === 'lexical prefix') {
+        type_code = 3
+      } else if ( columns[0] === 'lexical suffix') {
+        type_code = 4
+      }
       await Affix.create({
-        type: columns[0],
+        type: type_code,
         salish: columns[1],
         nicodemus: columns[2],
         english: columns[3],
         link: columns[4],
         page: columns[5],
         editnote: Sequelize.NULL,
-        active: 'Y',
+        active: 1,
         prevId: Sequelize.NULL,
         userId: "1"
       });
@@ -810,6 +854,8 @@ async function makeMedia(){
 
 async function makeTables(){
   await makeUsersTable();
+  await makeActiveTable();
+  await makeAffixTypesTable();
   await makeRoleTable();
   await makeUserRolesTable();
   await makeRootTable();
@@ -826,6 +872,10 @@ async function makeTables(){
 }
 
 // // below call the build function(s) you want.
-makeTables()
+//makeTables()
 //makeAudiosetTable()
 //makeAudiofileTable()
+
+makeActiveTable()
+makeAffixTypesTable()
+makeAffixTable()

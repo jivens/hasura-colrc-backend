@@ -10024,6 +10024,30 @@ const user_roles = [
   },
 ]
 
+const active = [
+  {
+    "value": "Y"
+  },
+  {
+    "value": "N"
+  }
+]
+
+const affix_types = [
+  {
+    "value": "directional"
+  },
+  {
+    "value": "locative"
+  },
+  {
+    "value": "lexical prefix"
+  },
+  {
+    "value": "lexical suffix"
+  }
+]
+
 module.exports = {
   spelling: spelling,
   bibliography: bibliography,
@@ -10039,4 +10063,6 @@ module.exports = {
   users: users,
   roles: roles,
   user_roles: user_roles,
+  active: active,
+  affix_types: affix_types
 };

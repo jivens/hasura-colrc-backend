@@ -467,7 +467,7 @@ async function makeRootTable(){
         variant: columns[11],
         cognate: columns[12],
         editnote: columns[13],
-        active: 'Y',
+        active: 1,
         prevId: Sequelize.NULL,
         userId: "1"
       })

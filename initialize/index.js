@@ -447,7 +447,7 @@ async function makeAffixTypesTable() {
 async function makeRootTable(){
   await Root.sync({force: true});
   var fs = require('fs');
-  var contentpath = path.resolve(__dirname, 'data', 'fixed_entries_trim.txt')
+  var contentpath = path.resolve(__dirname, 'data', 'fixed_entries_avf.txt')
   var contents = fs. readFileSync(contentpath, 'utf8');
   var rows = contents.split("\n");
   for (row of rows) {
@@ -879,3 +879,4 @@ async function makeTables(){
 makeActiveTable()
 makeAffixTypesTable()
 makeAffixTable()
+makeRootTable()

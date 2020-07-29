@@ -5,6 +5,7 @@ const assert = require('assert');
 require('dotenv').config();
 // ORM (Object-Relational Mapper library)
 const Sequelize = require('sequelize');
+const { QueryTypes } = require('sequelize');
 const path = require('path');
 const { active } = require('./Data');
 const dataPath = path.resolve(__dirname,'Data');
@@ -13,7 +14,6 @@ const audioMetaPath = path.resolve(__dirname, 'data', 'metadata_audio')
 const data = require(dataPath);
 const textFileMetaDatafile = require(txtMetaPath);
 const audioSetMetaDatafile = require(audioMetaPath);
-
 
 // const data = require('./Data');
 // const textFileMetaDatafile = require('./data/metadata_tables')
@@ -91,6 +91,14 @@ sequelize
   console.error('Unable to connect to the database:', err);
 });
 // ****** Set up default POSTGRES connection END ****** //
+
+// *** set the variables needed for auditing *** //
+async function setSessionVariables() {
+  const [results, metadata] = await sequelize.query("SET application.name to 'colrc'");
+  const [results2, metadata2] = await sequelize.query("SET application.\"user\" to 'Nicodemus, Lawrence'");
+}
+
+
 
 // first provide all the fundamental types
 const User = sequelize.define('user', {
@@ -876,7 +884,32 @@ async function makeTables(){
 //makeAudiosetTable()
 //makeAudiofileTable()
 
-makeActiveTable()
-makeAffixTypesTable()
-makeAffixTable()
-makeRootTable()
+//fake table for versioning
+
+var Puppy = sequelize.define('puppy', {
+  size: { type: Sequelize.TEXT },
+  color: { type: Sequelize.TEXT },
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+});
+
+async function makePuppyTable(){
+  // force: true will drop the table if it already exists
+  await Puppy.sync({force: true})
+  await setSessionVariables()
+  const res = await sequelize.query(`SELECT audit.audit_table('puppies')`, { type: QueryTypes.SELECT });
+  //Temporal(Puppy, sequelize)
+  //const PersonVersion = new Version(Person);
+  let puppy = await Puppy.build({size: 'enormous', color: 'black'}).save();
+  puppy.size = 'smaller';
+  await puppy.save()
+  await puppy.destroy()
+  //const versions = await PuppyVersion.findAll({where : {id: puppy.id}});
+  //const versionsByInstance = await puppy.getVersions();
+  //const versionsByModel = await Puppy.getVersions({where : {id: puppy.id}});
+  //console.log(JSON.parse(JSON.stringify(versions)));
+}
+
+makePuppyTable()

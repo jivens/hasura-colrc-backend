@@ -165,7 +165,7 @@ const Root = sequelize.define('root', {
   cognate: { type: Sequelize.TEXT},
   editnote: { type: Sequelize.TEXT },
   //active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -182,7 +182,7 @@ const Affix = sequelize.define('affix', {
   page: { type: Sequelize.TEXT },
   editnote: { type: Sequelize.TEXT },
   //active: { type: Sequelize.INTEGER },
-  prevId: { type: Sequelize.INTEGER },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -208,7 +208,7 @@ const Stem = sequelize.define('stem', {
   note: { type: Sequelize.TEXT },
   editnote: { type: Sequelize.TEXT },
   //active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -223,7 +223,7 @@ const Spelling = sequelize.define('spelling', {
   english: { type: Sequelize.TEXT },
   note: { type: Sequelize.TEXT },
   //active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -271,7 +271,7 @@ const Bibliography = sequelize.define('bibliography', {
   link: { type: Sequelize.TEXT },
   linktext: { type: Sequelize.TEXT },
   //active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -286,7 +286,7 @@ const Text = sequelize.define('text', {
   rnumber: { type: Sequelize.TEXT },
   tnumber: { type: Sequelize.TEXT },
   //active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -302,7 +302,7 @@ const Textfile = sequelize.define('textfile', {
   fileType: { type: Sequelize.TEXT },
   textId: { type: Sequelize.INTEGER },
   //active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -315,7 +315,7 @@ const Textimage = sequelize.define('textimage', {
   src: { type: Sequelize.TEXT },
   textFileId: { type: Sequelize.INTEGER },
   //active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -352,7 +352,7 @@ const Audiofile = sequelize.define('audiofile', {
   direct: { type: Sequelize.TEXT },
   //active: { type: Sequelize.TEXT },
   audiosetId: { type: Sequelize.INTEGER },
-  prevId: { type: Sequelize.INTEGER },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -377,7 +377,7 @@ const Elicitationset = sequelize.define('elicitationset', {
   editnote: { type: Sequelize.TEXT },
   //active: { type: Sequelize.TEXT },
   userId: { type: Sequelize.INTEGER },
-  prevID: { type: Sequelize.INTEGER }
+  //prevID: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -481,7 +481,7 @@ async function makeRootTable(){
         cognate: columns[12],
         editnote: columns[13],
         //active: 1,
-        prevId: Sequelize.NULL,
+        //prevId: Sequelize.NULL,
         userId: "1"
       })
     }
@@ -520,7 +520,7 @@ async function makeAffixTable(){
         page: columns[5],
         editnote: Sequelize.NULL,
         //active: 1,
-        prevId: Sequelize.NULL,
+        //prevId: Sequelize.NULL,
         userId: "1"
       });
     }
@@ -550,7 +550,7 @@ async function makeStemTable(){
         note: columns[7],
         editnote: Sequelize.NULL,
         //active: 'Y',
-        prevId: Sequelize.NULL,
+        //prevId: Sequelize.NULL,
         userId: "1"
       });
     }
@@ -573,7 +573,7 @@ async function makeBibliographyTable(){
       link: row.link,
       linktext: row.linktext,
       //active: 'Y',
-      prevId: Sequelize.NULL,
+      //prevId: Sequelize.NULL,
       userId: "1"
 		});
 	}
@@ -593,7 +593,7 @@ async function makeSpellingTable(){
       english: row.english,
       note: row.note,
       //active: 'Y',
-      prevId: Sequelize.NULL,
+      //prevId: Sequelize.NULL,
       userId: "1"
     });
   };
@@ -656,7 +656,7 @@ async function makeTextTable(){
       rnumber: row.rnumber,
       tnumber: row.tnumber,
       //active: 'Y',
-      prevId: Sequelize.NULL,
+      //prevId: Sequelize.NULL,
       userId: 1
     });
   };
@@ -676,7 +676,7 @@ async function makeTextfileTable(){
       fileType: row.fileType,
       textId: row.textId,
       //active: 'Y',
-      prevId: Sequelize.NULL,
+      //prevId: Sequelize.NULL,
       userId: 1
     })
     // let myText = await Text.findOne({  where: {id: row.textId} })
@@ -696,7 +696,7 @@ async function makeTextimageTable(){
       src: row.src,
       textFileId: row.textfileId,
       //active: 'Y',
-      prevId: Sequelize.NULL,
+      //prevId: Sequelize.NULL,
       userId: 1
     })
     // let myTextFile = await Textfile.findOne({  where: {id: row.textfileId} })
@@ -775,7 +775,7 @@ async function makeAudiosetTable(){
       speaker: row.speaker,
       textId: row.textId === '' ? Sequelize.NULL : row.textId,
       //active: 'Y',
-      prevId: Sequelize.NULL,
+      //prevId: Sequelize.NULL,
       userId: 1
     })
     // let myText = await Text.findOne({  where: {id: row.textId} })
@@ -797,7 +797,7 @@ async function makeAudiofileTable(){
       direct: row.direct,
       //active: 'Y',
       audiosetId: row.audiosetId,
-      prevId: Sequelize.NULL,
+      //prevId: Sequelize.NULL,
       userId: 1
     })
     // let myAudioSet = await Audioset.findOne({  where: {id: row.audiosetId} })
@@ -818,7 +818,7 @@ async function makeElicitationsetTable(){
       transcription: row.transcription,
       editnote: Sequelize.NULL,
       //active: 'Y',
-      prevId: Sequelize.NULL,
+      //prevId: Sequelize.NULL,
       userId: 1
     });
   };
@@ -837,7 +837,7 @@ async function makeElicitationfileTable(){
       direct: row.direct,
       elicitationSetId: row.elicitationId,
       //active: 'Y',
-      prevId: Sequelize.NULL,
+      //prevId: Sequelize.NULL,
       userId: 1
     })
     // let myElicitationSet = await Elicitationset.findOne({  where: {id: row.elicitationId} })

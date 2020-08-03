@@ -9988,10 +9988,6 @@ const elicitationfiles = [
      "role_value": "Update"
    },
    {
-     "role_code": "owner",
-     "role_value": "Owner"
-   },
-   {
      "role_code": "view",
      "role_value": "View"
    }
@@ -10011,12 +10007,8 @@ const user_roles = [
     "role": 3
   },
   {
-    "user": 4,
-    "role": 4
-  },
-  {
     "user": 1,
-    "role": 4
+    "role": 2
   },
   {
     "user": 1,

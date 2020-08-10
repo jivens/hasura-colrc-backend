@@ -164,8 +164,8 @@ const Root = sequelize.define('root', {
   variant: { type: Sequelize.TEXT},
   cognate: { type: Sequelize.TEXT},
   editnote: { type: Sequelize.TEXT },
-  active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //active: { type: Sequelize.TEXT },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -181,8 +181,8 @@ const Affix = sequelize.define('affix', {
   link: { type: Sequelize.TEXT },
   page: { type: Sequelize.TEXT },
   editnote: { type: Sequelize.TEXT },
-  active: { type: Sequelize.INTEGER },
-  prevId: { type: Sequelize.INTEGER },
+  //active: { type: Sequelize.INTEGER },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -207,8 +207,8 @@ const Stem = sequelize.define('stem', {
   english: { type: Sequelize.TEXT },
   note: { type: Sequelize.TEXT },
   editnote: { type: Sequelize.TEXT },
-  active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //active: { type: Sequelize.TEXT },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -222,8 +222,8 @@ const Spelling = sequelize.define('spelling', {
   salish: { type: Sequelize.TEXT },
   english: { type: Sequelize.TEXT },
   note: { type: Sequelize.TEXT },
-  active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //active: { type: Sequelize.TEXT },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -270,8 +270,8 @@ const Bibliography = sequelize.define('bibliography', {
   reference: { type: Sequelize.TEXT },
   link: { type: Sequelize.TEXT },
   linktext: { type: Sequelize.TEXT },
-  active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //active: { type: Sequelize.TEXT },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -285,8 +285,8 @@ const Text = sequelize.define('text', {
   cycle: { type: Sequelize.TEXT },
   rnumber: { type: Sequelize.TEXT },
   tnumber: { type: Sequelize.TEXT },
-  active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //active: { type: Sequelize.TEXT },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -301,8 +301,8 @@ const Textfile = sequelize.define('textfile', {
   msType: { type: Sequelize.TEXT },
   fileType: { type: Sequelize.TEXT },
   textId: { type: Sequelize.INTEGER },
-  active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //active: { type: Sequelize.TEXT },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -314,8 +314,8 @@ const Textimage = sequelize.define('textimage', {
   subdir: { type: Sequelize.TEXT },
   src: { type: Sequelize.TEXT },
   textFileId: { type: Sequelize.INTEGER },
-  active: { type: Sequelize.TEXT },
-  prevId: { type: Sequelize.INTEGER },
+  //active: { type: Sequelize.TEXT },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -336,7 +336,7 @@ const TextFileMetaData = sequelize.define('textfilemetadata', {
 const Audioset = sequelize.define('audioset', {
   title: { type: Sequelize.TEXT },
   speaker: { type: Sequelize.TEXT },
-  active: { type: Sequelize.TEXT },
+  //active: { type: Sequelize.TEXT },
   textId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
@@ -350,9 +350,9 @@ const Audiofile = sequelize.define('audiofile', {
   src: { type: Sequelize.TEXT },
   type: { type: Sequelize.TEXT },
   direct: { type: Sequelize.TEXT },
-  active: { type: Sequelize.TEXT },
+  //active: { type: Sequelize.TEXT },
   audiosetId: { type: Sequelize.INTEGER },
-  prevId: { type: Sequelize.INTEGER },
+  //prevId: { type: Sequelize.INTEGER },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -375,9 +375,9 @@ const Elicitationset = sequelize.define('elicitationset', {
   speaker: { type: Sequelize.TEXT },
   transcription: { type: Sequelize.TEXT },
   editnote: { type: Sequelize.TEXT },
-  active: { type: Sequelize.TEXT },
+  //active: { type: Sequelize.TEXT },
   userId: { type: Sequelize.INTEGER },
-  prevID: { type: Sequelize.INTEGER }
+  //prevID: { type: Sequelize.INTEGER }
 },
 {
   charset: 'utf8mb4',
@@ -389,7 +389,7 @@ const Elicitationfile = sequelize.define('elicitationfile', {
   type: { type: Sequelize.TEXT },
   direct: { type: Sequelize.TEXT },
   elicitationSetId: { type: Sequelize.INTEGER },
-  active: { type: Sequelize.TEXT },
+  //active: { type: Sequelize.TEXT },
   userId: { type: Sequelize.INTEGER }
 },
 {
@@ -401,6 +401,7 @@ const Elicitationfile = sequelize.define('elicitationfile', {
 async function makeUsersTable(){
   // force: true will drop the table if it already exists
   await User.sync({force: true})
+  const res = await sequelize.query(`SELECT audit.audit_table('users')`, { type: QueryTypes.SELECT });
   for (row of data.users) {
     // Table created
     await User.create({
@@ -415,6 +416,7 @@ async function makeUsersTable(){
 
 async function makeRoleTable() {
   await Role.sync({force: true})
+  const res = await sequelize.query(`SELECT audit.audit_table('roles')`, { type: QueryTypes.SELECT });
   for (row of data.roles) {
     await Role.create({
       role_code: row.role_code,
@@ -425,6 +427,7 @@ async function makeRoleTable() {
 
 async function makeUserRolesTable() {
   await UserToRoleRelation.sync({force: true})
+  const res = await sequelize.query(`SELECT audit.audit_table('user_roles')`, { type: QueryTypes.SELECT });
   for (row of data.user_roles) {
     await UserToRoleRelation.create({
       userId: row.user,
@@ -433,17 +436,18 @@ async function makeUserRolesTable() {
   }
 }
 
-async function makeActiveTable() {
-  await Active.sync({force: true})
-  for (row of data.active) {
-    await Active.create({
-      value: row.value
-    })
-  }
-}
+// async function makeActiveTable() {
+//   await Active.sync({force: true})
+//   for (row of data.active) {
+//     await Active.create({
+//       value: row.value
+//     })
+//   }
+// }
 
 async function makeAffixTypesTable() {
   await AffixTypes.sync({force: true})
+  const res = await sequelize.query(`SELECT audit.audit_table('affix_types')`, { type: QueryTypes.SELECT });
   for (row of data.affix_types) {
     await AffixTypes.create({
       value: row.value
@@ -454,6 +458,7 @@ async function makeAffixTypesTable() {
 // next, build the Root Dictionary, Affix List and Stem List from files in the 'data' directory
 async function makeRootTable(){
   await Root.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('roots')`, { type: QueryTypes.SELECT });
   var fs = require('fs');
   var contentpath = path.resolve(__dirname, 'data', 'fixed_entries_avf.txt')
   var contents = fs. readFileSync(contentpath, 'utf8');
@@ -475,8 +480,8 @@ async function makeRootTable(){
         variant: columns[11],
         cognate: columns[12],
         editnote: columns[13],
-        active: 1,
-        prevId: Sequelize.NULL,
+        //active: 1,
+        //prevId: Sequelize.NULL,
         userId: "1"
       })
     }
@@ -487,6 +492,7 @@ async function makeRootTable(){
 
 async function makeAffixTable(){
   await Affix.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('affixes')`, { type: QueryTypes.SELECT });
   var fs = require('fs');
   var contentpath = path.resolve(__dirname, 'data', 'affixes_spelled.txt')
   var contents = fs. readFileSync(contentpath, 'utf8');
@@ -513,8 +519,8 @@ async function makeAffixTable(){
         link: columns[4],
         page: columns[5],
         editnote: Sequelize.NULL,
-        active: 1,
-        prevId: Sequelize.NULL,
+        //active: 1,
+        //prevId: Sequelize.NULL,
         userId: "1"
       });
     }
@@ -524,6 +530,7 @@ async function makeAffixTable(){
 
 async function makeStemTable(){
   await Stem.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('stems')`, { type: QueryTypes.SELECT });
   var fs = require('fs');
   var contentpath = path.resolve(__dirname, 'data', 'stems_both_lists_nodoak_spelled.txt')
   var contents = fs. readFileSync(contentpath, 'utf8');
@@ -542,8 +549,8 @@ async function makeStemTable(){
         english: columns[6],
         note: columns[7],
         editnote: Sequelize.NULL,
-        active: 'Y',
-        prevId: Sequelize.NULL,
+        //active: 'Y',
+        //prevId: Sequelize.NULL,
         userId: "1"
       });
     }
@@ -553,7 +560,8 @@ async function makeStemTable(){
 
 // make the bibliography table, using Data.js
 async function makeBibliographyTable(){
-	await Bibliography.sync({force: true});
+  await Bibliography.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('bibliographies')`, { type: QueryTypes.SELECT });
 	var contents = data.bibliography;
   for (row of data.bibliography) {
 	//contents.forEach(async function (row) {
@@ -564,8 +572,8 @@ async function makeBibliographyTable(){
       reference: row.reference,
       link: row.link,
       linktext: row.linktext,
-      active: 'Y',
-      prevId: Sequelize.NULL,
+      //active: 'Y',
+      //prevId: Sequelize.NULL,
       userId: "1"
 		});
 	}
@@ -575,6 +583,7 @@ async function makeBibliographyTable(){
 // this table builds the spelling list, using Data.js
 async function makeSpellingTable(){
   await Spelling.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('spellings')`, { type: QueryTypes.SELECT });
   for (row of data.spelling) {
   //data.spelling.forEach(async function (row) {
     await Spelling.create({
@@ -583,8 +592,8 @@ async function makeSpellingTable(){
       nicodemus: row.nicodemus,
       english: row.english,
       note: row.note,
-      active: 'Y',
-      prevId: Sequelize.NULL,
+      //active: 'Y',
+      //prevId: Sequelize.NULL,
       userId: "1"
     });
   };
@@ -593,8 +602,9 @@ async function makeSpellingTable(){
 
 // make the consonant chart, using Data.js
 async function makeConsonantTable(){
-  console.log(data.consonants)
+  //console.log(data.consonants)
   await Consonant.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('consonants')`, { type: QueryTypes.SELECT });
   for (row of data.consonants) {
   //data.consonants.forEach(async function (row) {
     await Consonant.create({
@@ -619,6 +629,7 @@ async function makeConsonantTable(){
 // make the vowel chart, using Data.js
 async function makeVowelTable(){
   await Vowel.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('vowels')`, { type: QueryTypes.SELECT });
   for (row of data.vowels) {
   //data.vowels.forEach(async function (row) {
     await Vowel.create({
@@ -635,6 +646,7 @@ async function makeVowelTable(){
 // make the Text table, using Data.js
 async function makeTextTable(){
   await Text.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('texts')`, { type: QueryTypes.SELECT });
   for (row of data.texts) {
   //data.texts.forEach(async function (row) {
     await Text.create({
@@ -643,8 +655,8 @@ async function makeTextTable(){
       cycle: row.cycle,
       rnumber: row.rnumber,
       tnumber: row.tnumber,
-      active: 'Y',
-      prevId: Sequelize.NULL,
+      //active: 'Y',
+      //prevId: Sequelize.NULL,
       userId: 1
     });
   };
@@ -654,6 +666,7 @@ async function makeTextTable(){
 
 async function makeTextfileTable(){
   await Textfile.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('textfiles')`, { type: QueryTypes.SELECT });
   for (row of data.textfiles) {
     let newTextfile = await Textfile.create({
       subdir: row.subdir,
@@ -662,8 +675,8 @@ async function makeTextfileTable(){
       msType: row.msType,
       fileType: row.fileType,
       textId: row.textId,
-      active: 'Y',
-      prevId: Sequelize.NULL,
+      //active: 'Y',
+      //prevId: Sequelize.NULL,
       userId: 1
     })
     // let myText = await Text.findOne({  where: {id: row.textId} })
@@ -676,13 +689,14 @@ async function makeTextfileTable(){
 async function makeTextimageTable(){
   await makeTextfileTable();
   await Textimage.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('textimages')`, { type: QueryTypes.SELECT });
   for (row of data.textimages) {
     let newTextImage = await Textimage.create({
       subdir: row.subdir,
       src: row.src,
       textFileId: row.textfileId,
-      active: 'Y',
-      prevId: Sequelize.NULL,
+      //active: 'Y',
+      //prevId: Sequelize.NULL,
       userId: 1
     })
     // let myTextFile = await Textfile.findOne({  where: {id: row.textfileId} })
@@ -693,6 +707,7 @@ async function makeTextimageTable(){
 
 async function makeTextFileMetaDataTable(){
   await TextFileMetaData.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('textfilemetadata')`, { type: QueryTypes.SELECT });
   for (row of textFileMetaDatafile.metadata) {
     await TextFileMetaData.create({
       textFileId: row.textFileId,
@@ -725,6 +740,7 @@ async function makeTextFileMetaDataTable(){
 
 async function makeAudioSetMetaDataTable(){
   await AudioSetMetaData.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('audiosetmetadata')`, { type: QueryTypes.SELECT });
   for (row of audioSetMetaDatafile.audiometadata) {
     await AudioSetMetaData.create({
       audioSetId: row.audioSetId,
@@ -752,13 +768,14 @@ async function makeAudioSetMetaDataTable(){
 // make the audioset table
 async function makeAudiosetTable(){
   await Audioset.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('audiosets')`, { type: QueryTypes.SELECT });
   for (row of data.audiosets) {
     let newAudioSet = await Audioset.create({
       title: row.title,
       speaker: row.speaker,
       textId: row.textId === '' ? Sequelize.NULL : row.textId,
-      active: 'Y',
-      prevId: Sequelize.NULL,
+      //active: 'Y',
+      //prevId: Sequelize.NULL,
       userId: 1
     })
     // let myText = await Text.findOne({  where: {id: row.textId} })
@@ -771,15 +788,16 @@ async function makeAudiosetTable(){
 async function makeAudiofileTable(){
   //await makeAudiosetTable()
   await Audiofile.sync({force: true})
+  const res = await sequelize.query(`SELECT audit.audit_table('audiofiles')`, { type: QueryTypes.SELECT });
   for (row of data.audiofiles) {
     let newAudioFile = await Audiofile.create({
       subdir: row.subdir,
       src: row.src,
       type: row.type,
       direct: row.direct,
-      active: 'Y',
+      //active: 'Y',
       audiosetId: row.audiosetId,
-      prevId: Sequelize.NULL,
+      //prevId: Sequelize.NULL,
       userId: 1
     })
     // let myAudioSet = await Audioset.findOne({  where: {id: row.audiosetId} })
@@ -790,6 +808,7 @@ async function makeAudiofileTable(){
 // make the elicitationset table
 async function makeElicitationsetTable(){
   await Elicitationset.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('elicitationsets')`, { type: QueryTypes.SELECT });
   for (row of data.elicitationsets) {
   //data.elicitationsets.forEach(await async function (row) {
     await Elicitationset.create({
@@ -798,8 +817,8 @@ async function makeElicitationsetTable(){
       speaker: row.speaker,
       transcription: row.transcription,
       editnote: Sequelize.NULL,
-      active: 'Y',
-      prevId: Sequelize.NULL,
+      //active: 'Y',
+      //prevId: Sequelize.NULL,
       userId: 1
     });
   };
@@ -810,14 +829,15 @@ async function makeElicitationsetTable(){
 async function makeElicitationfileTable(){
   await makeElicitationsetTable();
   await Elicitationfile.sync({force: true});
+  const res = await sequelize.query(`SELECT audit.audit_table('elicitationfiles')`, { type: QueryTypes.SELECT });
   for (row of data.elicitationfiles) {
     let newElicitationFile = await Elicitationfile.create({
       src: row.src,
       type: row.type,
       direct: row.direct,
       elicitationSetId: row.elicitationId,
-      active: 'Y',
-      prevId: Sequelize.NULL,
+      //active: 'Y',
+      //prevId: Sequelize.NULL,
       userId: 1
     })
     // let myElicitationSet = await Elicitationset.findOne({  where: {id: row.elicitationId} })
@@ -861,8 +881,9 @@ async function makeMedia(){
 }
 
 async function makeTables(){
+  await setSessionVariables()
   await makeUsersTable();
-  await makeActiveTable();
+ // await makeActiveTable();
   await makeAffixTypesTable();
   await makeRoleTable();
   await makeUserRolesTable();
@@ -898,7 +919,6 @@ var Puppy = sequelize.define('puppy', {
 async function makePuppyTable(){
   // force: true will drop the table if it already exists
   await Puppy.sync({force: true})
-  await setSessionVariables()
   const res = await sequelize.query(`SELECT audit.audit_table('puppies')`, { type: QueryTypes.SELECT });
   //Temporal(Puppy, sequelize)
   //const PersonVersion = new Version(Person);
@@ -912,4 +932,5 @@ async function makePuppyTable(){
   //console.log(JSON.parse(JSON.stringify(versions)));
 }
 
-makePuppyTable()
+//makePuppyTable()
+makeTables();

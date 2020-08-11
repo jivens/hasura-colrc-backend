@@ -94,8 +94,9 @@ sequelize
 
 // *** set the variables needed for auditing *** //
 async function setSessionVariables() {
-  const [results, metadata] = await sequelize.query("SET application.name to 'colrc'");
-  const [results2, metadata2] = await sequelize.query("SET application.\"user\" to 'Nicodemus, Lawrence'");
+  const hasura_user = "\{\"x-hasura-role\": \"manager\", \"x-hasura-user-id\": \"1\"\}"
+  const [results, metadata] = await sequelize.query("SET application_name to 'colrc'");
+  //const [results2, metadata2] = await sequelize.query(`SET hasura_user to '${hasura_user}'`);
 }
 
 

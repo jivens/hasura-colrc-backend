@@ -96,7 +96,7 @@ sequelize
 async function setSessionVariables() {
   const hasura_user = "\{\"x-hasura-role\": \"manager\", \"x-hasura-user-id\": \"1\"\}"
   const [results, metadata] = await sequelize.query("SET application_name to 'colrc'");
-  //const [results2, metadata2] = await sequelize.query(`SET hasura_user to '${hasura_user}'`);
+  const [results2, metadata2] = await sequelize.query(`SET hasura."user" to '${hasura_user}'`);
 }
 
 

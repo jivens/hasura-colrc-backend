@@ -199,8 +199,16 @@ const AffixTypes = sequelize.define('affix_types', {
   collate: 'utf8mb4_unicode_ci'
 })
 
+const StemCategories = sequelize.define('stem_categories', {
+  value: { type: Sequelize.TEXT, unique: true }
+},
+{
+  charset: 'utf8mb4',
+  collate: 'utf8mb4_unicode_ci'
+})
+
 const Stem = sequelize.define('stem', {
-  category: { type: Sequelize.TEXT },
+  category: { type: Sequelize.INTEGER },
   reichard: { type: Sequelize.TEXT },
   doak: { type: Sequelize.TEXT },
   salish: { type: Sequelize.TEXT },
@@ -456,6 +464,16 @@ async function makeAffixTypesTable() {
   }
 }
 
+async function makeStemCategoriesTable() {
+  await StemCategories.sync({force: true})
+  const res = await sequelize.query(`SELECT audit.audit_table('stem_categories')`, { type: QueryTypes.SELECT });
+  for (row of data.stem_categories) {
+    await StemCategories.create({
+      value: row.value
+    })
+  }
+}
+
 // next, build the Root Dictionary, Affix List and Stem List from files in the 'data' directory
 async function makeRootTable(){
   await Root.sync({force: true});
@@ -541,8 +559,16 @@ async function makeStemTable(){
     row = row.replace(/(\r)/gm, "");
     columns = row.split(":::");
     if (columns[5]) {
+      let category_code = 1
+      if ( columns[0] === 'verb') {
+        category_code = 1
+      } else if ( columns[0] === 'noun') {
+        category_code = 2
+      } else if ( columns[0] === 'other') {
+        category_code = 3
+      }
       await Stem.create({
-        category: columns[0],
+        category: category_code,
         reichard: columns[2],
         doak: columns[3],
         salish: columns[4],
@@ -874,31 +900,32 @@ async function makeandReadUsers() {
 
 // // we can bundle these table builds, but order matters.  Relation tables must come before
 // // the tables that use them
-async function makeMedia(){
-  await makeTextTable();
-  await makeTextimageTable();
-  await makeAudiofileTable();
-  await makeElicitationfileTable();
-}
+// async function makeMedia(){
+//   await makeTextTable();
+//   await makeTextimageTable();
+//   await makeAudiofileTable();
+//   await makeElicitationfileTable();
+// }
 
 async function makeTables(){
-  await setSessionVariables()
-  await makeUsersTable();
+  // await setSessionVariables()
+  // await makeUsersTable();
  // await makeActiveTable();
-  await makeAffixTypesTable();
-  await makeRoleTable();
-  await makeUserRolesTable();
-  await makeRootTable();
+  // await makeAffixTypesTable();
   await makeStemTable();
-  await makeAffixTable();
-  await makeBibliographyTable();
-  await makeSpellingTable();
-  await makeConsonantTable();
-  await makeVowelTable();
-  await makeAudioSetMetaDataTable();
-  await makeAudiosetTable();
-  await makeTextFileMetaDataTable();
-  await makeMedia();
+  await makeStemCategoriesTable();
+  // await makeRoleTable();
+  // await makeUserRolesTable();
+  // await makeRootTable();
+  // await makeAffixTable();
+  // await makeBibliographyTable();
+  // await makeSpellingTable();
+  // await makeConsonantTable();
+  // await makeVowelTable();
+  // await makeAudioSetMetaDataTable();
+  // await makeAudiosetTable();
+  // await makeTextFileMetaDataTable();
+  // await makeMedia();
 }
 
 // // below call the build function(s) you want.
@@ -908,30 +935,30 @@ async function makeTables(){
 
 //fake table for versioning
 
-var Puppy = sequelize.define('puppy', {
-  size: { type: Sequelize.TEXT },
-  color: { type: Sequelize.TEXT },
-},
-{
-  charset: 'utf8mb4',
-  collate: 'utf8mb4_unicode_ci'
-});
+// var Puppy = sequelize.define('puppy', {
+//   size: { type: Sequelize.TEXT },
+//   color: { type: Sequelize.TEXT },
+// },
+// {
+//   charset: 'utf8mb4',
+//   collate: 'utf8mb4_unicode_ci'
+// });
 
-async function makePuppyTable(){
-  // force: true will drop the table if it already exists
-  await Puppy.sync({force: true})
-  const res = await sequelize.query(`SELECT audit.audit_table('puppies')`, { type: QueryTypes.SELECT });
-  //Temporal(Puppy, sequelize)
-  //const PersonVersion = new Version(Person);
-  let puppy = await Puppy.build({size: 'enormous', color: 'black'}).save();
-  puppy.size = 'smaller';
-  await puppy.save()
-  await puppy.destroy()
-  //const versions = await PuppyVersion.findAll({where : {id: puppy.id}});
-  //const versionsByInstance = await puppy.getVersions();
-  //const versionsByModel = await Puppy.getVersions({where : {id: puppy.id}});
-  //console.log(JSON.parse(JSON.stringify(versions)));
-}
+// async function makePuppyTable(){
+//   // force: true will drop the table if it already exists
+//   await Puppy.sync({force: true})
+//   const res = await sequelize.query(`SELECT audit.audit_table('puppies')`, { type: QueryTypes.SELECT });
+//   //Temporal(Puppy, sequelize)
+//   //const PersonVersion = new Version(Person);
+//   let puppy = await Puppy.build({size: 'enormous', color: 'black'}).save();
+//   puppy.size = 'smaller';
+//   await puppy.save()
+//   await puppy.destroy()
+//   //const versions = await PuppyVersion.findAll({where : {id: puppy.id}});
+//   //const versionsByInstance = await puppy.getVersions();
+//   //const versionsByModel = await Puppy.getVersions({where : {id: puppy.id}});
+//   //console.log(JSON.parse(JSON.stringify(versions)));
+// }
 
 //makePuppyTable()
 makeTables();

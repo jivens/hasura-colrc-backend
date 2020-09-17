@@ -10040,6 +10040,18 @@ const affix_types = [
   }
 ]
 
+const stem_categories = [
+  {
+    "value": "verbs"
+  },
+  {
+    "value": "nouns"
+  },
+  {
+    "value": "other"
+  }
+]
+
 module.exports = {
   spelling: spelling,
   bibliography: bibliography,
@@ -10056,5 +10068,6 @@ module.exports = {
   roles: roles,
   user_roles: user_roles,
   active: active,
-  affix_types: affix_types
+  affix_types: affix_types,
+  stem_categories: stem_categories
 };

@@ -102,132 +102,132 @@ const textimages = [
   {  
     "textfileId": 7,
     "subdir": "CallingOnesKind__Tom_Typed_Images",
-    "src:" "CallingOnesKind__Tom_Typed_Images1.png"  
+    "src": "CallingOnesKind__Tom_Typed_Images1.png"  
   },  
   {  
     "textfileId": 7,
     "subdir": "CallingOnesKind__Tom_Typed_Images",
-    "src:" "CallingOnesKind__Tom_Typed_Images2.png"  
+    "src": "CallingOnesKind__Tom_Typed_Images2.png"  
   },  
   {  
     "textfileId": 7,
     "subdir": "CallingOnesKind__Tom_Typed_Images",
-    "src:" "CallingOnesKind__Tom_Typed_Images3.png"  
+    "src": "CallingOnesKind__Tom_Typed_Images3.png"  
   },  
   {  
     "textfileId": 7,
     "subdir": "CallingOnesKind__Tom_Typed_Images",
-    "src:" "CallingOnesKind__Tom_Typed_Images4.png"  
+    "src": "CallingOnesKind__Tom_Typed_Images4.png"  
   },  
   {  
     "textfileId": 8,
     "subdir": "CallingTheDeer_Engl_Images",
-    "src:" "CallingTheDeer_Engl_Images1.png"  
+    "src": "CallingTheDeer_Engl_Images1.png"  
   },  
   {  
     "textfileId": 8,
     "subdir": "CallingTheDeer_Engl_Images",
-    "src:" "CallingTheDeer_Engl_Images2.png"  
+    "src": "CallingTheDeer_Engl_Images2.png"  
   },  
   {  
     "textfileId": 8,
     "subdir": "CallingTheDeer_Engl_Images",
-    "src:" "CallingTheDeer_Engl_Images3.png"  
+    "src": "CallingTheDeer_Engl_Images3.png"  
   },  
   {  
     "textfileId": 9,
     "subdir": "CallingTheDeer_Hand_Images",
-    "src:" "CallingTheDeer_Hand_Images1.png"  
+    "src": "CallingTheDeer_Hand_Images1.png"  
   },  
   {  
     "textfileId": 9,
     "subdir": "CallingTheDeer_Hand_Images",
-    "src:" "CallingTheDeer_Hand_Images2.png"  
+    "src": "CallingTheDeer_Hand_Images2.png"  
   },  
   {  
     "textfileId": 9,
     "subdir": "CallingTheDeer_Hand_Images",
-    "src:" "CallingTheDeer_Hand_Images3.png"  
+    "src": "CallingTheDeer_Hand_Images3.png"  
   },  
   {  
     "textfileId": 9,
     "subdir": "CallingTheDeer_Hand_Images",
-    "src:" "CallingTheDeer_Hand_Images4.png"  
+    "src": "CallingTheDeer_Hand_Images4.png"  
   },  
   {  
     "textfileId": 9,
     "subdir": "CallingTheDeer_Hand_Images",
-    "src:" "CallingTheDeer_Hand_Images5.png"  
+    "src": "CallingTheDeer_Hand_Images5.png"  
   },  
   {  
     "textfileId": 9,
     "subdir": "CallingTheDeer_Hand_Images",
-    "src:" "CallingTheDeer_Hand_Images6.png"  
+    "src": "CallingTheDeer_Hand_Images6.png"  
   },  
   {  
     "textfileId": 9,
     "subdir": "CallingTheDeer_Hand_Images",
-    "src:" "CallingTheDeer_Hand_Images7.png"  
+    "src": "CallingTheDeer_Hand_Images7.png"  
   },  
   {  
     "textfileId": 9,
     "subdir": "CallingTheDeer_Hand_Images",
-    "src:" "CallingTheDeer_Hand_Images8.png"  
+    "src": "CallingTheDeer_Hand_Images8.png"  
   },  
   {  
     "textfileId": 9,
     "subdir": "CallingTheDeer_Hand_Images",
-    "src:" "CallingTheDeer_Hand_Images9.png"  
+    "src": "CallingTheDeer_Hand_Images9.png"  
   },  
   {  
-    "textfileId":: 10, 
+    "textfileId": 10, 
     "subdir": "CallingTheDeer_Typed_Images",
-    "src:" "CallingTheDeer_Typed_Images1.png"  
+    "src": "CallingTheDeer_Typed_Images1.png"  
   },  
   {  
-    "textfileId":: 10, 
+    "textfileId": 10, 
     "subdir": "CallingTheDeer_Typed_Images",
-    "src:" "CallingTheDeer_Typed_Images10.png"  
+    "src": "CallingTheDeer_Typed_Images10.png"  
   },  
   {  
-    "textfileId":: 10, 
+    "textfileId": 10, 
     "subdir": "CallingTheDeer_Typed_Images",
-    "src:" "CallingTheDeer_Typed_Images2.png"  
+    "src": "CallingTheDeer_Typed_Images2.png"  
   },  
   {  
-    "textfileId":: 10, 
+    "textfileId": 10, 
     "subdir": "CallingTheDeer_Typed_Images",
-    "src:" "CallingTheDeer_Typed_Images3.png"  
+    "src": "CallingTheDeer_Typed_Images3.png"  
   },  
   {  
-    "textfileId":: 10, 
+    "textfileId": 10, 
     "subdir": "CallingTheDeer_Typed_Images",
-    "src:" "CallingTheDeer_Typed_Images4.png"  
+    "src": "CallingTheDeer_Typed_Images4.png"  
   },  
   {  
-    "textfileId":: 10, 
+    "textfileId": 10, 
     "subdir": "CallingTheDeer_Typed_Images",
-    "src:" "CallingTheDeer_Typed_Images5.png"  
+    "src": "CallingTheDeer_Typed_Images5.png"  
   },  
   {  
-    "textfileId":: 10, 
+    "textfileId": 10, 
     "subdir": "CallingTheDeer_Typed_Images",
-    "src:" "CallingTheDeer_Typed_Images6.png"  
+    "src": "CallingTheDeer_Typed_Images6.png"  
   },  
   {  
-    "textfileId":: 10, 
+    "textfileId": 10, 
     "subdir": "CallingTheDeer_Typed_Images",
-    "src:" "CallingTheDeer_Typed_Images7.png"  
+    "src": "CallingTheDeer_Typed_Images7.png"  
   },  
   {  
-    "textfileId":: 10, 
+    "textfileId": 10, 
     "subdir": "CallingTheDeer_Typed_Images",
-    "src:" "CallingTheDeer_Typed_Images8.png"  
+    "src": "CallingTheDeer_Typed_Images8.png"  
   },  
   {  
-    "textfileId":: 10, 
+    "textfileId": 10, 
     "subdir": "CallingTheDeer_Typed_Images",
-    "src:" "CallingTheDeer_Typed_Images9.png"  
+    "src": "CallingTheDeer_Typed_Images9.png"  
   },  
   {  
     "textfileId": 12,
@@ -427,107 +427,107 @@ const textimages = [
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images39.png"  
+    "src": "Catbird_Typed_Images39.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images40.png"  
+    "src": "Catbird_Typed_Images40.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images41.png"  
+    "src": "Catbird_Typed_Images41.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images42.png"  
+    "src": "Catbird_Typed_Images42.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images43.png"  
+    "src": "Catbird_Typed_Images43.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images44.png"  
+    "src": "Catbird_Typed_Images44.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images45.png"  
+    "src": "Catbird_Typed_Images45.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images46.png"  
+    "src": "Catbird_Typed_Images46.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images47.png"  
+    "src": "Catbird_Typed_Images47.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images48.png"  
+    "src": "Catbird_Typed_Images48.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images49.png"  
+    "src": "Catbird_Typed_Images49.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images50.png"  
+    "src": "Catbird_Typed_Images50.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images51.png"  
+    "src": "Catbird_Typed_Images51.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images52.png"  
+    "src": "Catbird_Typed_Images52.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images53.png"  
+    "src": "Catbird_Typed_Images53.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images54.png"  
+    "src": "Catbird_Typed_Images54.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images55.png"  
+    "src": "Catbird_Typed_Images55.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images56.png"  
+    "src": "Catbird_Typed_Images56.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images57.png"  
+    "src": "Catbird_Typed_Images57.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images58.png"  
+    "src": "Catbird_Typed_Images58.png"  
   },  
   {  
     "textfileId": 11,
     "subdir" :"Catbird_Typed_Images",
-    "src:" "Catbird_Typed_Images59.png"
+    "src": "Catbird_Typed_Images59.png"
   },  
 
   {  
@@ -553,153 +553,153 @@ const textimages = [
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images64.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images64.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images65.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images65.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images66.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images66.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images67.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images67.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images68.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images68.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images69.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images69.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images70.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images70.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images71.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images71.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images72.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images72.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images73.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images73.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images74.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images74.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images75.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images75.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images76.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images76.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images77.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images77.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images78.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images78.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images79.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images79.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images80.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images80.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images81.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images81.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images82.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images82.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images83.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images83.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images84.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images84.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images85.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images85.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images86.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images86.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images87.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images87.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images88.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images88.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images89.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images89.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images90.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images90.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images91.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images91.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images92.png"  
+    "src": "ChiefChildOfTheRoot_Typed_Images92.png"  
   },  
   {  
     "textfileId": 15,
     "subdir": "ChiefChildOfTheRoot_Typed_Images",
-    "src:" "ChiefChildOfTheRoot_Typed_Images93.png"
-
+    "src": "ChiefChildOfTheRoot_Typed_Images93.png"
+  },
   {  
     "textfileId": 17,
     "subdir": "ChipmunkAndSnake_Engl_Images",
@@ -711,34 +711,34 @@ const textimages = [
     "src": "ChipmunkAndSnake_Engl_Images1.png"
   },
   {  
-    "textfileId":: 18, 
+    "textfileId": 18, 
     "subdir": "ChipmunkAndSnake_Hand_Images",
     "src": "ChipmunkAndSnake_Hand_Images0.png"  
   },  
   {  
-    "textfileId":: 18, 
+    "textfileId":18, 
     "subdir": "ChipmunkAndSnake_Hand_Images",
     "src": "ChipmunkAndSnake_Hand_Images1.png"  
   },  
   {  
-    "textfileId":: 18, 
+    "textfileId": 18, 
     "subdir": "ChipmunkAndSnake_Hand_Images",
     "src": "ChipmunkAndSnake_Hand_Images2.png"  
   },  
   {  
-    "textfileId":: 16, 
+    "textfileId": 16, 
     "subdir": "ChipmunkAndSnake_Typed_Images",
-    "src:" "ChipmunkAndSnake_Typed_Images0.png"  
+    "src": "ChipmunkAndSnake_Typed_Images0.png"  
   },  
   {  
-    "textfileId":: 16, 
+    "textfileId": 16, 
     "subdir": "ChipmunkAndSnake_Typed_Images",
-    "src:" "ChipmunkAndSnake_Typed_Images1.png"  
+    "src": "ChipmunkAndSnake_Typed_Images1.png"  
   },  
   {  
-    "textfileId":: 16, 
+    "textfileId": 16, 
     "subdir": "ChipmunkAndSnake_Typed_Images",
-    "src:" "ChipmunkAndSnake_Typed_Images2.png"
+    "src": "ChipmunkAndSnake_Typed_Images2.png"
   },  
   {
     "textfileId": 20,
@@ -773,17 +773,17 @@ const textimages = [
   {  
     "textfileId": 21,
     "subdir": "ContestBetweenColdAndHeat_Typed_Images",
-    "src:" "ContestBetweenColdAndHeat_Typed_Images0.png"  
+    "src": "ContestBetweenColdAndHeat_Typed_Images0.png"  
   },  
   {  
     "textfileId": 21,
     "subdir": "ContestBetweenColdAndHeat_Typed_Images",
-    "src:" "ContestBetweenColdAndHeat_Typed_Images1.png"  
+    "src": "ContestBetweenColdAndHeat_Typed_Images1.png"  
   },  
   {  
     "textfileId": 21,
     "subdir": "ContestBetweenColdAndHeat_Typed_Images",
-    "src:" "ContestBetweenColdAndHeat_Typed_Images2.png"
+    "src": "ContestBetweenColdAndHeat_Typed_Images2.png"
   },  
   {
     "textfileId": 22,
@@ -828,22 +828,23 @@ const textimages = [
   {  
     "textfileId": 24,
     "subdir": "CoyoteAndBadger_Typed_Images",
-    "src:" "CoyoteAndBadger_Typed_Images0.png"  
+    "src": "CoyoteAndBadger_Typed_Images0.png"  
   },  
   {  
     "textfileId": 24,
     "subdir": "CoyoteAndBadger_Typed_Images",
-    "src:" "CoyoteAndBadger_Typed_Images1.png"  
+    "src": "CoyoteAndBadger_Typed_Images1.png"  
   },  
   {  
     "textfileId": 24,
     "subdir": "CoyoteAndBadger_Typed_Images",
-    "src:" "CoyoteAndBadger_Typed_Images2.png"  
+    "src": "CoyoteAndBadger_Typed_Images2.png"  
   },  
   {  
     "textfileId": 24,
     "subdir": "CoyoteAndBadger_Typed_Images",
-    "src:" "CoyoteAndBadger_Typed_Images3.png"
+    "src": "CoyoteAndBadger_Typed_Images3.png"
+  },
      
   {  
     "textfileId": 25,
@@ -853,37 +854,37 @@ const textimages = [
   {  
     "textfileId": 26,
     "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
-    "src:" "CoyoteAndFoxGambleWithFish_Typed_Images0.png"  
+    "src": "CoyoteAndFoxGambleWithFish_Typed_Images0.png"  
   },  
   {  
     "textfileId": 26,
     "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
-    "src:" "CoyoteAndFoxGambleWithFish_Typed_Images1.png"  
+    "src": "CoyoteAndFoxGambleWithFish_Typed_Images1.png"  
   },  
   {  
     "textfileId": 26,
     "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
-    "src:" "CoyoteAndFoxGambleWithFish_Typed_Images2.png"  
+    "src": "CoyoteAndFoxGambleWithFish_Typed_Images2.png"  
   },  
   {  
     "textfileId": 26,
     "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
-    "src:" "CoyoteAndFoxGambleWithFish_Typed_Images3.png"  
+    "src": "CoyoteAndFoxGambleWithFish_Typed_Images3.png"  
   },  
   {  
     "textfileId": 26,
     "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
-    "src:" "CoyoteAndFoxGambleWithFish_Typed_Images4.png"  
+    "src": "CoyoteAndFoxGambleWithFish_Typed_Images4.png"  
   },  
   {  
     "textfileId": 26,
     "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
-    "src:" "CoyoteAndFoxGambleWithFish_Typed_Images5.png"  
+    "src": "CoyoteAndFoxGambleWithFish_Typed_Images5.png"  
   },  
   {  
     "textfileId": 26,
     "subdir": "CoyoteAndFoxGambleWithFish_Typed_Images",
-    "src:" "CoyoteAndFoxGambleWithFish_Typed_Images6.png"  
+    "src": "CoyoteAndFoxGambleWithFish_Typed_Images6.png"  
   },  
   {  
     "textfileId": 27,
@@ -1168,462 +1169,462 @@ const textimages = [
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images0.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images0.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images1.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images1.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images10.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images10.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images11.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images11.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images12.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images12.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images2.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images2.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images3.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images3.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images4.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images4.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images5.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images5.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images6.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images6.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images7.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images7.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images8.png"  
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images8.png"  
   },  
   {  
     "textfileId": 32,
     "subdir": "CoyoteDevoursHisOwnChildren_Typed_Images",
-    "src:" "CoyoteDevoursHisOwnChildren_Typed_Images9.png"
+    "src": "CoyoteDevoursHisOwnChildren_Typed_Images9.png"
   },  
   {  
     "textfileId": 33,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images0.png"  
+    "subdir": "CHWC_Engl_Images",
+    "src": "CHWC_Engl_Images0.png"  
   },  
   {  
     "textfileId": 33,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images1.png"  
+    "subdir": "CHWC_Engl_Images",
+    "src": "CHWC_Engl_Images1.png"  
   },  
   {  
     "textfileId": 33,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images2.png"  
+    "subdir": "CHWC_Engl_Images",
+    "src": "CHWC_Engl_Images2.png"  
   },  
   {  
     "textfileId": 33,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images3.png"  
+    "subdir": "CHWC_Engl_Images",
+    "src": "CHWC_Engl_Images3.png"  
   },  
   {  
     "textfileId": 33,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images4.png"  
+    "subdir": "CHWC_Engl_Images",
+    "src": "CHWC_Engl_Images4.png"  
   },  
   {  
     "textfileId": 33,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Engl_Images5.png"  
+    "subdir": "CHWC_Engl_Images",
+    "src": "CHWC_Engl_Images5.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images0.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images0.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images1.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images1.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images10.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images10.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images11.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images11.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images12.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images12.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images13.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images13.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images14.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images14.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images15.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images15.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images16.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images16.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images17.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images17.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images18.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images18.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images19.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images19.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images2.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images2.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images20.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images20.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images21.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images21.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images22.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images22.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images23.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images23.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images24.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images24.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images25.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images25.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images26.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images26.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images27.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images27.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images28.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images28.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images29.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images29.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images3.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images3.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images30.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images30.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images31.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images31.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images32.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images32.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images33.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images33.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images34.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images34.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images35.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images35.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images36.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images36.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images37.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images37.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images38.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images38.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images39.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images39.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images4.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images4.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images40.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images40.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images41.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images41.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images42.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images42.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images43.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images43.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images44.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images44.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images45.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images45.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images46.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images46.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images47.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images47.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images48.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images48.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images49.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images49.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images5.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images5.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images50.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images50.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images6.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images6.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images7.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images7.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images8.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images8.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images",
-    "src": "CoyoteHuntsWithCraneAndReleasesSalmon_Hand_Images9.png"  
+    "subdir": "CHWC_Hand_Images",
+    "src": "CHWC_Hand_Images9.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images0.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images0.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images1.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images1.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images10.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images10.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images11.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images11.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images12.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images12.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images13.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images13.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images14.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images14.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images15.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images15.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images16.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images16.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images17.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images17.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images18.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images18.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images19.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images19.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images2.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images2.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images20.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images20.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images21.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images21.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images3.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images3.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images4.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images4.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images5.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images5.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images6.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images6.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images7.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images7.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images8.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images8.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images",
-    "src:" "CoyoteHuntsWithCraneAndReleasesSalmon_Typed_Images9.png"  
+    "subdir": "CHWC_Typed_Images",
+    "src": "CHWC_Typed_Images9.png"  
   },  
   {  
     "textfileId": 36,
@@ -1678,27 +1679,28 @@ const textimages = [
   {  
     "textfileId": 38,
     "subdir": "CoyoteImitatesMagpie_Typed_Images",
-    "src:" "CoyoteImitatesMagpie_Typed_Images0.png"  
+    "src": "CoyoteImitatesMagpie_Typed_Images0.png"  
   },  
   {  
     "textfileId": 38,
     "subdir": "CoyoteImitatesMagpie_Typed_Images",
-    "src:" "CoyoteImitatesMagpie_Typed_Images1.png"  
+    "src": "CoyoteImitatesMagpie_Typed_Images1.png"  
   },  
   {  
     "textfileId": 38,
     "subdir": "CoyoteImitatesMagpie_Typed_Images",
-    "src:" "CoyoteImitatesMagpie_Typed_Images2.png"  
+    "src": "CoyoteImitatesMagpie_Typed_Images2.png"  
   },  
   {  
     "textfileId": 38,
     "subdir": "CoyoteImitatesMagpie_Typed_Images",
-    "src:" "CoyoteImitatesMagpie_Typed_Images3.png"  
+    "src": "CoyoteImitatesMagpie_Typed_Images3.png"  
   },  
   {  
     "textfileId": 38,
     "subdir": "CoyoteImitatesMagpie_Typed_Images",
-    "src:" "CoyoteImitatesMagpie_Typed_Images4.png"
+    "src": "CoyoteImitatesMagpie_Typed_Images4.png"
+  },
 
   {  
     "textfileId": 39,
@@ -1819,70 +1821,67 @@ const textimages = [
     "textfileId": 40,
     "subdir": "CoyoteKillsCricketWithElkFat_Hand_Images",
     "src": "CoyoteKillsCricketWithElkFat_Hand_Images9.png"
-    "src": "
+  },
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-  {  
-    "textfileId": 41,
-    "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images0.png"  
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images0.png"  
   },  
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images1.png"  
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images1.png"  
   },  
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images10.png"  
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images10.png"  
   },  
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images11.png"  
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images11.png"  
   },  
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images2.png"  
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images2.png"  
   },  
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images3.png"  
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images3.png"  
   },  
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images4.png"  
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images4.png"  
   },  
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images5.png"  
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images5.png"  
   },  
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images6.png"  
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images6.png"  
   },  
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images7.png"  
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images7.png"  
   },  
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images8.png"  
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images8.png"  
   },  
   {  
     "textfileId": 41,
     "subdir": "CoyoteKillsCricketWithElkFat_Typed_Images",
-    "src:" "CoyoteKillsCricketWithElkFat_Typed_Images9.png"
-
+    "src": "CoyoteKillsCricketWithElkFat_Typed_Images9.png"
+  },
   {  
     "textfileId": 42,
     "subdir": "CoyoteLosesHisEyes_Engl_Images",
@@ -1902,141 +1901,137 @@ const textimages = [
     "textfileId": 42,
     "subdir": "CoyoteLosesHisEyes_Engl_Images",
     "src": "CoyoteLosesHisEyes_Engl_Images3.png"
-    "src": "
+  },
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-  {  
-    "textfileId": 43,
-    "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images0.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images0.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images1.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images1.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images10.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images10.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images11.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images11.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images12.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images12.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images13.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images13.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images14.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images14.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images15.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images15.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images16.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images16.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images17.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images17.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images18.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images18.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images19.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images19.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images2.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images2.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images20.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images20.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images21.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images21.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images22.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images22.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images23.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images23.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images24.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images24.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images25.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images25.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images3.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images3.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images4.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images4.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images5.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images5.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images6.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images6.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images7.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images7.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images8.png"  
+    "src": "CoyoteLosesHisEyes_Typed_Images8.png"  
   },  
   {  
     "textfileId": 43,
     "subdir": "CoyoteLosesHisEyes_Typed_Images",
-    "src:" "CoyoteLosesHisEyes_Typed_Images9.png"
-    "src:" "
-   
+    "src": "CoyoteLosesHisEyes_Typed_Images9.png"
+  }, 
   {  
     "textfileId": 44,
     "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Engl_Images",
@@ -2125,47 +2120,47 @@ const textimages = [
   {  
     "textfileId": 46,
     "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
-    "src:" "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images0.png"  
+    "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images0.png"  
   },  
   {  
     "textfileId": 46,
     "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
-    "src:" "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images1.png"  
+    "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images1.png"  
   },  
   {  
     "textfileId": 46,
     "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
-    "src:" "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images2.png"  
+    "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images2.png"  
   },  
   {  
     "textfileId": 46,
     "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
-    "src:" "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images3.png"  
+    "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images3.png"  
   },  
   {  
     "textfileId": 46,
     "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
-    "src:" "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images4.png"  
+    "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images4.png"  
   },  
   {  
     "textfileId": 46,
     "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
-    "src:" "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images5.png"  
+    "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images5.png"  
   },  
   {  
     "textfileId": 46,
     "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
-    "src:" "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images6.png"  
+    "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images6.png"  
   },  
   {  
     "textfileId": 46,
     "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
-    "src:" "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images7.png"  
+    "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images7.png"  
   },  
   {  
     "textfileId": 46,
     "subdir": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images",
-    "src:" "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images8.png"  
+    "src": "CoyoteMarriesSquirrelSisterOfGoose_Typed_Images8.png"  
   },  
   {  
     "textfileId": 47,
@@ -2181,10 +2176,7 @@ const textimages = [
     "textfileId": 47,
     "subdir": "CoyoteOverpowersSun_Engl_Images",
     "src": "CoyoteOverpowersSun_Engl_Images2.png"
-    "src": "
-  {  
-    "textfileId": 48,
-    "subdir": "CoyoteOverpowersSun_Hand_Images",
+  },
   {  
     "textfileId": 48,
     "subdir": "CoyoteOverpowersSun_Hand_Images",
@@ -2398,127 +2390,127 @@ const textimages = [
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images0.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images0.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images1.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images1.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images10.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images10.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images11.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images11.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images12.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images12.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images13.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images13.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images14.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images14.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images2.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images2.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images3.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images3.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images4.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images4.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images5.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images5.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images6.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images6.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images7.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images7.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images8.png"  
+    "src": "CoyoteOverpowersSun_Typed_Images8.png"  
   },  
   {  
     "textfileId": 49,
     "subdir": "CoyoteOverpowersSun_Typed_Images",
-    "src:" "CoyoteOverpowersSun_Typed_Images9.png"
-
+    "src": "CoyoteOverpowersSun_Typed_Images9.png"
+  },
   {  
     "textfileId": 50,
     "subdir": "CoyoteSnaresTheWind_Engl_Images",
     "src": "CoyoteSnaresTheWind_Engl_Images0.png"  
   },  
   {  
-    "textfileId":: 51, 
+    "textfileId": 51, 
     "subdir": "CoyoteSnaresTheWind_Hand_Images",
     "src": "CoyoteSnaresTheWind_Hand_Images0.png"  
   },  
   {  
-    "textfileId":: 51, 
+    "textfileId": 51, 
     "subdir": "CoyoteSnaresTheWind_Hand_Images",
     "src": "CoyoteSnaresTheWind_Hand_Images1.png"  
   },  
   {  
-    "textfileId":: 51, 
+    "textfileId": 51, 
     "subdir": "CoyoteSnaresTheWind_Hand_Images",
     "src": "CoyoteSnaresTheWind_Hand_Images2.png"  
   },  
   {  
-    "textfileId":: 51, 
+    "textfileId": 51, 
     "subdir": "CoyoteSnaresTheWind_Hand_Images",
     "src": "CoyoteSnaresTheWind_Hand_Images3.png"  
   },  
   {  
-    "textfileId":: 51, 
+    "textfileId": 51, 
     "subdir": "CoyoteSnaresTheWind_Hand_Images",
     "src": "CoyoteSnaresTheWind_Hand_Images4.png"  
   },  
   {  
-    "textfileId":: 51, 
+    "textfileId": 51, 
     "subdir": "CoyoteSnaresTheWind_Hand_Images",
     "src": "CoyoteSnaresTheWind_Hand_Images5.png"
-    "src": "
+  },
   {  
     "textfileId": 52, 
     "subdir": "CoyoteSnaresTheWind_Typed_Images",
-    "src:" "CoyoteSnaresTheWind_Typed_Images0.png"  
+    "src": "CoyoteSnaresTheWind_Typed_Images0.png"  
   },  
   {  
     "textfileId": 52, 
     "subdir": "CoyoteSnaresTheWind_Typed_Images",
-    "src:" "CoyoteSnaresTheWind_Typed_Images1.png"  
+    "src": "CoyoteSnaresTheWind_Typed_Images1.png"  
   },  
   {  
     "textfileId": 52, 
     "subdir": "CoyoteSnaresTheWind_Typed_Images",
-    "src:" "CoyoteSnaresTheWind_Typed_Images2.png"
+    "src": "CoyoteSnaresTheWind_Typed_Images2.png"
   },  
   {
     "textfileId": 53, 
@@ -2723,67 +2715,67 @@ const textimages = [
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images0.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images0.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images1.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images1.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images10.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images10.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images11.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images11.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images12.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images12.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images2.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images2.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images3.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images3.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images4.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images4.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images5.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images5.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images6.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images6.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images7.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images7.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images8.png"  
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images8.png"  
   },  
   {  
     "textfileId": 55, 
     "subdir": "CoyoteStealsHisDaughterInLaw_Typed_Images",
-    "src:" "CoyoteStealsHisDaughterInLaw_Typed_Images9.png"
+    "src": "CoyoteStealsHisDaughterInLaw_Typed_Images9.png"
   },  
   {
     "textfileId": 56, 
@@ -2823,17 +2815,17 @@ const textimages = [
   {  
     "textfileId": 58, 
     "subdir": "CricketRidesCoyote_Typed_Images",
-    "src:" "CricketRidesCoyote_Typed_Images1.png"  
+    "src": "CricketRidesCoyote_Typed_Images1.png"  
   },  
   {  
     "textfileId": 58, 
     "subdir": "CricketRidesCoyote_Typed_Images",
-    "src:" "CricketRidesCoyote_Typed_Images2.png"  
+    "src": "CricketRidesCoyote_Typed_Images2.png"  
   },  
   {  
     "textfileId": 58, 
     "subdir": "CricketRidesCoyote_Typed_Images",
-    "src:" "CricketRidesCoyote_Typed_Images3.png"
+    "src": "CricketRidesCoyote_Typed_Images3.png"
   },  
   {
     "textfileId": 59, 
@@ -2858,12 +2850,12 @@ const textimages = [
   {  
     "textfileId": 61, 
     "subdir": "DogGoesForFire_Typed_Images",
-    "src:" "DogGoesForFire_Typed_Images0.png"  
+    "src": "DogGoesForFire_Typed_Images0.png"  
   },  
   {  
     "textfileId": 61, 
     "subdir": "DogGoesForFire_Typed_Images",
-    "src:" "DogGoesForFire_Typed_Images1.png"
+    "src": "DogGoesForFire_Typed_Images1.png"
   },  
  
   {  
@@ -2889,62 +2881,62 @@ const textimages = [
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images0.png"  
+    "src": "DogHusband_Typed_Images0.png"  
   },  
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images1.png"  
+    "src": "DogHusband_Typed_Images1.png"  
   },  
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images10.png"  
+    "src": "DogHusband_Typed_Images10.png"  
   },  
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images11.png"  
+    "src": "DogHusband_Typed_Images11.png"  
   },  
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images2.png"  
+    "src": "DogHusband_Typed_Images2.png"  
   },  
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images3.png"  
+    "src": "DogHusband_Typed_Images3.png"  
   },  
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images4.png"  
+    "src": "DogHusband_Typed_Images4.png"  
   },  
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images5.png"  
+    "src": "DogHusband_Typed_Images5.png"  
   },  
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images6.png"  
+    "src": "DogHusband_Typed_Images6.png"  
   },  
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images7.png"  
+    "src": "DogHusband_Typed_Images7.png"  
   },  
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images8.png"  
+    "src": "DogHusband_Typed_Images8.png"  
   },  
   {  
     "textfileId": 63, 
     "subdir" :"DogHusband_Typed_Images",
-    "src:" "DogHusband_Typed_Images9.png"
+    "src": "DogHusband_Typed_Images9.png"
   },  
   {  
     "textfileId": 64, 
@@ -2979,22 +2971,22 @@ const textimages = [
   {   
     "textfileId": 66, 
     "subdir" :"ElkAndSnowshoe_Typed_Images",
-    "src:" "ElkAndSnowshoe_Typed_Images0.png"  
+    "src": "ElkAndSnowshoe_Typed_Images0.png"  
   },  
   {  
     "textfileId": 66, 
     "subdir" :"ElkAndSnowshoe_Typed_Images",
-    "src:" "ElkAndSnowshoe_Typed_Images1.png"  
+    "src": "ElkAndSnowshoe_Typed_Images1.png"  
   },  
   {  
     "textfileId": 66, 
     "subdir" :"ElkAndSnowshoe_Typed_Images",
-    "src:" "ElkAndSnowshoe_Typed_Images2.png"  
+    "src": "ElkAndSnowshoe_Typed_Images2.png"  
   },  
   {  
     "textfileId": 66, 
     "subdir" :"ElkAndSnowshoe_Typed_Images",
-    "src:" "ElkAndSnowshoe_Typed_Images3.png"
+    "src": "ElkAndSnowshoe_Typed_Images3.png"
   },  
   {  
     "textfileId": 69, 
@@ -3074,42 +3066,42 @@ const textimages = [
   {  
     "textfileId": 68, 
     "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
-    "src:" "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images0.png"  
+    "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images0.png"  
   },  
   {  
     "textfileId": 68, 
     "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
-    "src:" "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images1.png"  
+    "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images1.png"  
   },  
   {  
     "textfileId": 68, 
     "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
-    "src:" "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images2.png"  
+    "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images2.png"  
   },  
   {  
     "textfileId": 68, 
     "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
-    "src:" "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images3.png"  
+    "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images3.png"  
   },  
   {  
     "textfileId": 68, 
     "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
-    "src:" "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images4.png"  
+    "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images4.png"  
   },  
   {  
     "textfileId": 68, 
     "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
-    "src:" "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images5.png"  
+    "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images5.png"  
   },  
   {  
     "textfileId": 68, 
     "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
-    "src:" "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images6.png"  
+    "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images6.png"  
   },  
   {  
     "textfileId": 68, 
     "subdir" :"FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images",
-    "src:" "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images7.png"  
+    "src": "FlatheadChiefSendsHisDaughterToChiefWaxane_Typed_Images7.png"  
   },  
   {  
     "textfileId": 70, 
@@ -3144,17 +3136,17 @@ const textimages = [
   {   
     "textfileId": 72, 
     "subdir" :"GrizzlyAndHisBrothersInLaw_Typed_Images",
-    "src:" "GrizzlyAndHisBrothersInLaw_Typed_Images0.png"  
+    "src": "GrizzlyAndHisBrothersInLaw_Typed_Images0.png"  
   },  
   {  
     "textfileId": 72, 
     "subdir" :"GrizzlyAndHisBrothersInLaw_Typed_Images",
-    "src:" "GrizzlyAndHisBrothersInLaw_Typed_Images1.png"  
+    "src": "GrizzlyAndHisBrothersInLaw_Typed_Images1.png"  
   },  
   {  
     "textfileId": 72, 
     "subdir" :"GrizzlyAndHisBrothersInLaw_Typed_Images",
-    "src:" "GrizzlyAndHisBrothersInLaw_Typed_Images2.png"
+    "src": "GrizzlyAndHisBrothersInLaw_Typed_Images2.png"
   },  
   {
     "textfileId": 73, 
@@ -3314,172 +3306,172 @@ const textimages = [
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image0.png"  
+    "src": "LittleBeaver_Typed_Image0.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image1.png"  
+    "src": "LittleBeaver_Typed_Image1.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image10.png"  
+    "src": "LittleBeaver_Typed_Image10.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image11.png"  
+    "src": "LittleBeaver_Typed_Image11.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image12.png"  
+    "src": "LittleBeaver_Typed_Image12.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image13.png"  
+    "src": "LittleBeaver_Typed_Image13.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image2.png"  
+    "src": "LittleBeaver_Typed_Image2.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image3.png"  
+    "src": "LittleBeaver_Typed_Image3.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image4.png"  
+    "src": "LittleBeaver_Typed_Image4.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image5.png"  
+    "src": "LittleBeaver_Typed_Image5.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image6.png"  
+    "src": "LittleBeaver_Typed_Image6.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image7.png"  
+    "src": "LittleBeaver_Typed_Image7.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image8.png"  
+    "src": "LittleBeaver_Typed_Image8.png"  
   },  
   {  
     "textfileId": 75, 
     "subdir" :"LittleBeaver_Typed_Images",
-    "src:" "LittleBeaver_Typed_Image9.png"  
+    "src": "LittleBeaver_Typed_Image9.png"  
   },  
   {  
     "textfileId": 76, 
     "subdir": "LittleMosquito_Engl_Images",
-    "src:" "LittleMosquito_Engl_Images1.png"  
+    "src": "LittleMosquito_Engl_Images1.png"  
   },  
   {  
     "textfileId": 76, 
     "subdir": "LittleMosquito_Engl_Images",
-    "src:" "LittleMosquito_Engl_Images2.png"
+    "src": "LittleMosquito_Engl_Images2.png"
   },
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images1.png"  
+    "src": "LittleMosquito_Hand_Images1.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images10.png"  
+    "src": "LittleMosquito_Hand_Images10.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images11.png"  
+    "src": "LittleMosquito_Hand_Images11.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images12.png"  
+    "src": "LittleMosquito_Hand_Images12.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images13.png"  
+    "src": "LittleMosquito_Hand_Images13.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images2.png"  
+    "src": "LittleMosquito_Hand_Images2.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images3.png"  
+    "src": "LittleMosquito_Hand_Images3.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images4.png"  
+    "src": "LittleMosquito_Hand_Images4.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images5.png"  
+    "src": "LittleMosquito_Hand_Images5.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images6.png"  
+    "src": "LittleMosquito_Hand_Images6.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images7.png"  
+    "src": "LittleMosquito_Hand_Images7.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images8.png"  
+    "src": "LittleMosquito_Hand_Images8.png"  
   },  
   {  
     "textfileId": 77, 
     "subdir": "LittleMosquito_Hand_Images",
-    "src:" "LittleMosquito_Hand_Images9.png"
+    "src": "LittleMosquito_Hand_Images9.png"
   },
   {  
     "textfileId": 78, 
     "subdir" :"LittleMosquito_Typed_Images",
-    "src:" "LittleMosquito_Typed_Images1.png"  
+    "src": "LittleMosquito_Typed_Images1.png"  
   },  
   {  
     "textfileId": 78, 
     "subdir" :"LittleMosquito_Typed_Images",
-    "src:" "LittleMosquito_Typed_Images2.png"  
+    "src": "LittleMosquito_Typed_Images2.png"  
   },  
   {  
     "textfileId": 78, 
     "subdir" :"LittleMosquito_Typed_Images",
-    "src:" "LittleMosquito_Typed_Images3.png"  
+    "src": "LittleMosquito_Typed_Images3.png"  
   },  
   {  
     "textfileId": 78, 
     "subdir" :"LittleMosquito_Typed_Images",
-    "src:" "LittleMosquito_Typed_Images4.png"  
+    "src": "LittleMosquito_Typed_Images4.png"  
   },  
   {  
     "textfileId": 78, 
     "subdir" :"LittleMosquito_Typed_Images",
-    "src:" "LittleMosquito_Typed_Images5.png"
+    "src": "LittleMosquito_Typed_Images5.png"
   },  
   {  
     "textfileId": 79, 
@@ -3524,22 +3516,22 @@ const textimages = [
   {  
     "textfileId": 81, 
     "subdir" :"ManCaughtInFireCorral_Typed_Images",
-    "src:" "ManCaughtInFireCorral_Typed_Images0.png"  
+    "src": "ManCaughtInFireCorral_Typed_Images0.png"  
   },  
   {  
     "textfileId": 81, 
     "subdir" :"ManCaughtInFireCorral_Typed_Images",
-    "src:" "ManCaughtInFireCorral_Typed_Images1.png"  
+    "src": "ManCaughtInFireCorral_Typed_Images1.png"  
   },  
   {  
     "textfileId": 81, 
     "subdir" :"ManCaughtInFireCorral_Typed_Images",
-    "src:" "ManCaughtInFireCorral_Typed_Images2.png"  
+    "src": "ManCaughtInFireCorral_Typed_Images2.png"  
   },  
   {  
     "textfileId": 81, 
     "subdir" :"ManCaughtInFireCorral_Typed_Images",
-    "src:" "ManCaughtInFireCorral_Typed_Images3.png"
+    "src": "ManCaughtInFireCorral_Typed_Images3.png"
   },  
   {  
     "textfileId": 82, 
@@ -3554,93 +3546,93 @@ const textimages = [
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images0.png"  
+    "src": "MuskratTrespasses_Hand_Images0.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images1.png"  
+    "src": "MuskratTrespasses_Hand_Images1.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images10.png"  
+    "src": "MuskratTrespasses_Hand_Images10.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images11.png"  
+    "src": "MuskratTrespasses_Hand_Images11.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images12.png"  
+    "src": "MuskratTrespasses_Hand_Images12.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images13.png"  
+    "src": "MuskratTrespasses_Hand_Images13.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images14.png"  
+    "src": "MuskratTrespasses_Hand_Images14.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images15.png"  
+    "src": "MuskratTrespasses_Hand_Images15.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images16.png"  
+    "src": "MuskratTrespasses_Hand_Images16.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images17.png"  
+    "src": "MuskratTrespasses_Hand_Images17.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images2.png"  
+    "src": "MuskratTrespasses_Hand_Images2.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images3.png"  
+    "src": "MuskratTrespasses_Hand_Images3.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images4.png"  
+    "src": "MuskratTrespasses_Hand_Images4.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images5.png"  
+    "src": "MuskratTrespasses_Hand_Images5.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images6.png"  
+    "src": "MuskratTrespasses_Hand_Images6.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images7.png"  
+    "src": "MuskratTrespasses_Hand_Images7.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images8.png"  
+    "src": "MuskratTrespasses_Hand_Images8.png"  
   },  
   {  
     "textfileId": 83, 
     "subdir" :"MuskratTrespasses_Hand_Images",
-    "src:" "MuskratTrespasses_Hand_Images9.png"
-
+    "src": "MuskratTrespasses_Hand_Images9.png"
+  },
   {  
     "textfileId": 84, 
     "subdir": "OriginOfIndianTribes_Engl_Images",
@@ -3809,52 +3801,52 @@ const textimages = [
   {  
     "textfileId": 86, 
     "subdir" :"OriginOfIndianTribes_Typed_Images",
-    "src:" "OriginOfIndianTribes_Typed_Images0.png"  
+    "src": "OriginOfIndianTribes_Typed_Images0.png"  
   },  
   {  
     "textfileId": 86, 
     "subdir" :"OriginOfIndianTribes_Typed_Images",
-    "src:" "OriginOfIndianTribes_Typed_Images1.png"  
+    "src": "OriginOfIndianTribes_Typed_Images1.png"  
   },  
   {  
     "textfileId": 86, 
     "subdir" :"OriginOfIndianTribes_Typed_Images",
-    "src:" "OriginOfIndianTribes_Typed_Images2.png"  
+    "src": "OriginOfIndianTribes_Typed_Images2.png"  
   },  
   {  
     "textfileId": 86, 
     "subdir" :"OriginOfIndianTribes_Typed_Images",
-    "src:" "OriginOfIndianTribes_Typed_Images3.png"  
+    "src": "OriginOfIndianTribes_Typed_Images3.png"  
   },  
   {  
     "textfileId": 86, 
     "subdir" :"OriginOfIndianTribes_Typed_Images",
-    "src:" "OriginOfIndianTribes_Typed_Images4.png"  
+    "src": "OriginOfIndianTribes_Typed_Images4.png"  
   },  
   {  
     "textfileId": 86, 
     "subdir" :"OriginOfIndianTribes_Typed_Images",
-    "src:" "OriginOfIndianTribes_Typed_Images5.png"  
+    "src": "OriginOfIndianTribes_Typed_Images5.png"  
   },  
   {  
     "textfileId": 86, 
     "subdir" :"OriginOfIndianTribes_Typed_Images",
-    "src:" "OriginOfIndianTribes_Typed_Images6.png"  
+    "src": "OriginOfIndianTribes_Typed_Images6.png"  
   },  
   {  
     "textfileId": 86, 
     "subdir" :"OriginOfIndianTribes_Typed_Images",
-    "src:" "OriginOfIndianTribes_Typed_Images7.png"  
+    "src": "OriginOfIndianTribes_Typed_Images7.png"  
   },  
   {  
     "textfileId": 86, 
     "subdir" :"OriginOfIndianTribes_Typed_Images",
-    "src:" "OriginOfIndianTribes_Typed_Images8.png"  
+    "src": "OriginOfIndianTribes_Typed_Images8.png"  
   },  
   {  
     "textfileId": 86, 
     "subdir" :"OriginOfIndianTribes_Typed_Images",
-    "src:" "OriginOfIndianTribes_Typed_Images9.png"
+    "src": "OriginOfIndianTribes_Typed_Images9.png"
   },  
   {  
     "textfileId": 87,
@@ -3904,22 +3896,22 @@ const textimages = [
   {  
     "textfileId": 89,
     "subdir" :"RabbitAndJackRabbit_Typed_Images",
-    "src:" "RabbitAndJackRabbit_Typed_Images0.png"  
+    "src": "RabbitAndJackRabbit_Typed_Images0.png"  
   },  
   {  
     "textfileId": 89,
     "subdir" :"RabbitAndJackRabbit_Typed_Images",
-    "src:" "RabbitAndJackRabbit_Typed_Images1.png"  
+    "src": "RabbitAndJackRabbit_Typed_Images1.png"  
   },  
   {  
     "textfileId": 89,
     "subdir" :"RabbitAndJackRabbit_Typed_Images",
-    "src:" "RabbitAndJackRabbit_Typed_Images2.png"  
+    "src": "RabbitAndJackRabbit_Typed_Images2.png"  
   },  
   {  
     "textfileId": 89,
     "subdir" :"RabbitAndJackRabbit_Typed_Images",
-    "src:" "RabbitAndJackRabbit_Typed_Images3.png"
+    "src": "RabbitAndJackRabbit_Typed_Images3.png"
   },  
   {  
     "textfileId": 90,
@@ -4129,107 +4121,107 @@ const textimages = [
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images0.png"  
+    "src": "SkunkAndFisher_Typed_Images0.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images1.png"  
+    "src": "SkunkAndFisher_Typed_Images1.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images10.png"  
+    "src": "SkunkAndFisher_Typed_Images10.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images11.png"  
+    "src": "SkunkAndFisher_Typed_Images11.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images12.png"  
+    "src": "SkunkAndFisher_Typed_Images12.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images13.png"  
+    "src": "SkunkAndFisher_Typed_Images13.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images14.png"  
+    "src": "SkunkAndFisher_Typed_Images14.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images15.png"  
+    "src": "SkunkAndFisher_Typed_Images15.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images16.png"  
+    "src": "SkunkAndFisher_Typed_Images16.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images17.png"  
+    "src": "SkunkAndFisher_Typed_Images17.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images18.png"  
+    "src": "SkunkAndFisher_Typed_Images18.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images19.png"  
+    "src": "SkunkAndFisher_Typed_Images19.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images2.png"  
+    "src": "SkunkAndFisher_Typed_Images2.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images20.png"  
+    "src": "SkunkAndFisher_Typed_Images20.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images3.png"  
+    "src": "SkunkAndFisher_Typed_Images3.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images4.png"  
+    "src": "SkunkAndFisher_Typed_Images4.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images5.png"  
+    "src": "SkunkAndFisher_Typed_Images5.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images6.png"  
+    "src": "SkunkAndFisher_Typed_Images6.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images7.png"  
+    "src": "SkunkAndFisher_Typed_Images7.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images8.png"  
+    "src": "SkunkAndFisher_Typed_Images8.png"  
   },  
   {  
     "textfileId": 92,
     "subdir" :"SkunkAndFisher_Typed_Images",
-    "src:" "SkunkAndFisher_Typed_Images9.png"
+    "src": "SkunkAndFisher_Typed_Images9.png"
   },  
   {  
     "textfileId": 93,
@@ -4559,88 +4551,88 @@ const textimages = [
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images0.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images0.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images1.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images1.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images10.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images10.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images11.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images11.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images12.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images12.png"  
+  },  
+  {  
+    "textfileId": 98,
+    "subdir": "StoryOfLynx__Tom_Typed_Images",
+    "src:": "StoryOfLynx__Tom_Typed_Images13.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images13.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images14.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images14.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images15.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images15.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images16.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images16.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images2.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images2.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images3.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images3.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images4.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images4.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images5.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images5.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images6.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images6.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images7.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images7.png"  
+    "src:": "StoryOfLynx__Tom_Typed_Images8.png"  
   },  
   {  
     "textfileId": 98,
     "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images8.png"  
-  },  
-  {  
-    "textfileId": 98,
-    "subdir" :"StoryOfLynx__Tom_Typed_Images",
-    "src:" "StoryOfLynx__Tom_Typed_Images9.png"
-     
+    "src": "StoryOfLynx__Tom_Typed_Images9.png"
+  },   
   {  
     "textfileId": 99,
     "subdir": "TheCoeurDAleneAttacked_Engl_Images",
@@ -4659,68 +4651,69 @@ const textimages = [
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images0.png"  
+    "src": "TheCoeurDAleneAttacked_Typed_Images0.png"  
+  },  
+  {  
+    "textfileId": 101,
+    "subdir": "TheCoeurDAleneAttacked_Typed_Images",
+    "src": "TheCoeurDAleneAttacked_Typed_Images1.png"  
   },  
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images1.png"  
+    "src": "TheCoeurDAleneAttacked_Typed_Images10.png"  
   },  
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images10.png"  
+    "src": "TheCoeurDAleneAttacked_Typed_Images11.png"  
   },  
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images11.png"  
+    "src": "TheCoeurDAleneAttacked_Typed_Images12.png"  
   },  
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images12.png"  
+    "src": "TheCoeurDAleneAttacked_Typed_Images2.png"  
   },  
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images2.png"  
+    "src": "TheCoeurDAleneAttacked_Typed_Images3.png"  
   },  
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images3.png"  
+    "src": "TheCoeurDAleneAttacked_Typed_Images4.png"  
   },  
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images4.png"  
+    "src": "TheCoeurDAleneAttacked_Typed_Images5.png"  
   },  
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images5.png"  
+    "src": "TheCoeurDAleneAttacked_Typed_Images6.png"  
   },  
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images6.png"  
+    "src": "TheCoeurDAleneAttacked_Typed_Images7.png"  
   },  
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images7.png"  
+    "src": "TheCoeurDAleneAttacked_Typed_Images8.png"  
   },  
   {  
     "textfileId": 101,
     "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images8.png"  
-  },  
-  {  
-    "textfileId": 101,
-    "subdir" :"TheCoeurDAleneAttacked_Typed_Images",
-    "src:" "TheCoeurDAleneAttacked_Typed_Images9.png"
-    
+    "src": "TheCoeurDAleneAttacked_Typed_Images9.png"
+  },
+   
   {  
     "textfileId": 102,
     "subdir": "TheCoeurDAleneFightTheKutenai_Engl_Images",
@@ -4729,37 +4722,37 @@ const textimages = [
   {  
     "textfileId": 103,
     "subdir": "TheCoeurDAleneFightTheKutenai_Hand_Images",
-    "src": "TheCoeurDAleneFightTheKutenai_Hand_Imagess0.png"  
+    "src": "TheCoeurDAleneFightTheKutenai_Hand_Images0.png"  
   },  
   {  
     "textfileId": 103,
     "subdir": "TheCoeurDAleneFightTheKutenai_Hand_Images",
-    "src": "TheCoeurDAleneFightTheKutenai_Hand_Imagess1.png"  
+    "src": "TheCoeurDAleneFightTheKutenai_Hand_Images1.png"  
   },  
   {  
     "textfileId": 103,
     "subdir": "TheCoeurDAleneFightTheKutenai_Hand_Images",
-    "src": "TheCoeurDAleneFightTheKutenai_Hand_Imagess2.png"  
+    "src": "TheCoeurDAleneFightTheKutenai_Hand_Images2.png"  
   },  
   {  
     "textfileId": 103,
     "subdir": "TheCoeurDAleneFightTheKutenai_Hand_Images",
-    "src": "TheCoeurDAleneFightTheKutenai_Hand_Imagess3.png"
+    "src": "TheCoeurDAleneFightTheKutenai_Hand_Images3.png"
   },
   {  
     "textfileId": 104,
     "subdir" :"TheCoeurDAleneFightTheKutenai_Typed_Images",
-    "src:" "TheCoeurDAleneFightTheKutenai_Typed_Images0.png"  
+    "src": "TheCoeurDAleneFightTheKutenai_Typed_Images0.png"  
   },  
   {  
     "textfileId": 104,
     "subdir" :"TheCoeurDAleneFightTheKutenai_Typed_Images",
-    "src:" "TheCoeurDAleneFightTheKutenai_Typed_Images1.png"  
+    "src": "TheCoeurDAleneFightTheKutenai_Typed_Images1.png"  
   },  
   {  
     "textfileId": 104,
     "subdir" :"TheCoeurDAleneFightTheKutenai_Typed_Images",
-    "src:" "TheCoeurDAleneFightTheKutenai_Typed_Images2.png"
+    "src": "TheCoeurDAleneFightTheKutenai_Typed_Images2.png"
   },  
   {
     "textfileId": 105,
@@ -4769,407 +4762,407 @@ const textimages = [
   {  
     "textfileId": 106,
     "subdir" :"TheDwarf_Typed_Images",
-    "src:" "TheDwarf_Typed_Images0.png"  
+    "src": "TheDwarf_Typed_Images0.png"  
   },  
   {  
     "textfileId": 106,
     "subdir" :"TheDwarf_Typed_Images",
-    "src:" "TheDwarf_Typed_Images1.png"  
+    "src": "TheDwarf_Typed_Images1.png"  
   },  
   {  
     "textfileId": 106,
     "subdir" :"TheDwarf_Typed_Images",
-    "src:" "TheDwarf_Typed_Images2.png"
+    "src": "TheDwarf_Typed_Images2.png"
   },
   {  
     "textfileId": 107,
-    "subdir": "TheGirlsWhoStoleDentalia_Engl_Images",
+    "subdir": "De_Engl_Images",
     "src": "TheGirlsWhoStoleDentalia_Engl_Images0.png"  
   },  
   {  
     "textfileId": 107,
-    "subdir": "TheGirlsWhoStoleDentalia_Engl_Images",
+    "subdir": "De_Engl_Images",
     "src": "TheGirlsWhoStoleDentalia_Engl_Images1.png"  
   },  
   {  
     "textfileId": 107,
-    "subdir": "TheGirlsWhoStoleDentalia_Engl_Images",
+    "subdir": "De_Engl_Images",
     "src": "TheGirlsWhoStoleDentalia_Engl_Images2.png"  
   },  
   {  
     "textfileId": 107,
-    "subdir": "TheGirlsWhoStoleDentalia_Engl_Images",
+    "subdir": "De_Engl_Images",
     "src": "TheGirlsWhoStoleDentalia_Engl_Images3.png"
   },
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images100.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images101.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images102.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images103.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images104.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images105.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images106.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images107.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images108.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images109.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images110.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images111.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images112.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images113.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images114.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images115.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images116.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images117.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images118.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images119.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images120.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images121.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images122.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images123.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images124.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images125.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images126.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images127.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images128.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images129.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images130.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images131.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images132.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images133.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images134.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images135.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images136.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images137.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images138.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images139.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images140.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images141.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images142.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images143.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images144.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images145.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images146.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images147.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images148.png"  
   },  
   {  
     "textfileId": 108,
-    "subdir": "TheGirlsWhoStoleDentalia_Hand_Images",
+    "subdir": "De_Hand_Images",
     "src": "TheGirlsWhoStoleDentalia_Hand_Images149.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images0.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images0.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images1.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images1.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images10.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images10.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images11.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images11.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images12.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images12.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images13.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images13.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images14.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images14.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images15.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images15.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images16.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images16.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images17.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images17.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images18.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images18.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images19.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images19.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images2.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images2.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images20.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images20.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images21.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images21.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images22.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images22.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images23.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images23.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images3.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images3.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images4.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images4.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images5.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images5.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images6.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images6.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images7.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images7.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images8.png"  
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images8.png"  
   },  
   {  
     "textfileId": 109,
-    "subdir" :"TheGirlsWhoStoleDentalia_Typed_Images",
-    "src:" "TheGirlsWhoStoleDentalia_Typed_Images9.png"
+    "subdir": "De_Typed_Images",
+    "src": "TheGirlsWhoStoleDentalia_Typed_Images9.png"
   },  
 
   {  
@@ -5200,17 +5193,17 @@ const textimages = [
   {  
     "textfileId": 112,
     "subdir" :"ThePracticalJoker_Typed_Images",
-    "src:" "ThePracticalJoker_Typed_Images0.png"  
+    "src": "ThePracticalJoker_Typed_Images0.png"  
   },  
   {  
     "textfileId": 112,
     "subdir" :"ThePracticalJoker_Typed_Images",
-    "src:" "ThePracticalJoker_Typed_Images1.png"  
+    "src": "ThePracticalJoker_Typed_Images1.png"  
   },  
   {  
     "textfileId": 112,
     "subdir" :"ThePracticalJoker_Typed_Images",
-    "src:" "ThePracticalJoker_Typed_Images2.png"
+    "src": "ThePracticalJoker_Typed_Images2.png"
   },  
   {  
     "textfileId": 113,
@@ -5310,52 +5303,52 @@ const textimages = [
   {  
     "textfileId": 115,
     "subdir" :"Thunder_Typed_Images",
-    "src:" "Thunder_Typed_Images0.png"  
+    "src": "Thunder_Typed_Images0.png"  
   },  
   {  
     "textfileId": 115,
     "subdir" :"Thunder_Typed_Images",
-    "src:" "Thunder_Typed_Images1.png"  
+    "src": "Thunder_Typed_Images1.png"  
   },  
   {  
     "textfileId": 115,
     "subdir" :"Thunder_Typed_Images",
-    "src:" "Thunder_Typed_Images2.png"  
+    "src": "Thunder_Typed_Images2.png"  
   },  
   {  
     "textfileId": 115,
     "subdir" :"Thunder_Typed_Images",
-    "src:" "Thunder_Typed_Images3.png"  
+    "src": "Thunder_Typed_Images3.png"  
   },  
   {  
     "textfileId": 115,
     "subdir" :"Thunder_Typed_Images",
-    "src:" "Thunder_Typed_Images4.png"  
+    "src": "Thunder_Typed_Images4.png"  
   },  
   {  
     "textfileId": 115,
     "subdir" :"Thunder_Typed_Images",
-    "src:" "Thunder_Typed_Images5.png"  
+    "src": "Thunder_Typed_Images5.png"  
   },  
   {  
     "textfileId": 115,
     "subdir" :"Thunder_Typed_Images",
-    "src:" "Thunder_Typed_Images6.png"  
+    "src": "Thunder_Typed_Images6.png"  
   },  
   {  
     "textfileId": 115,
     "subdir" :"Thunder_Typed_Images",
-    "src:" "Thunder_Typed_Images7.png"  
+    "src": "Thunder_Typed_Images7.png"  
   },  
   {  
     "textfileId": 115,
     "subdir" :"Thunder_Typed_Images",
-    "src:" "Thunder_Typed_Images8.png"  
+    "src": "Thunder_Typed_Images8.png"  
   },  
   {  
     "textfileId": 115,
     "subdir" :"Thunder_Typed_Images",
-    "src:" "Thunder_Typed_Images9.png"
+    "src": "Thunder_Typed_Images9.png"
   },  
   {
     "textfileId": 116,
@@ -5400,37 +5393,37 @@ const textimages = [
   {  
     "textfileId": 118,
     "subdir" :"ToadSavesChildren_Typed_Images",
-    "src:" "ToadSavesChildren_Typed_Images0.png"  
+    "src": "ToadSavesChildren_Typed_Images0.png"  
   },  
   {  
     "textfileId": 118,
     "subdir" :"ToadSavesChildren_Typed_Images",
-    "src:" "ToadSavesChildren_Typed_Images1.png"  
+    "src": "ToadSavesChildren_Typed_Images1.png"  
   },  
   {  
     "textfileId": 118,
     "subdir" :"ToadSavesChildren_Typed_Images",
-    "src:" "ToadSavesChildren_Typed_Images2.png"  
+    "src": "ToadSavesChildren_Typed_Images2.png"  
   },  
   {  
     "textfileId": 118,
     "subdir" :"ToadSavesChildren_Typed_Images",
-    "src:" "ToadSavesChildren_Typed_Images3.png"  
+    "src": "ToadSavesChildren_Typed_Images3.png"  
   },  
   {  
     "textfileId": 118,
     "subdir" :"ToadSavesChildren_Typed_Images",
-    "src:" "ToadSavesChildren_Typed_Images4.png"  
+    "src": "ToadSavesChildren_Typed_Images4.png"  
   },  
   {  
     "textfileId": 118,
     "subdir" :"ToadSavesChildren_Typed_Images",
-    "src:" "ToadSavesChildren_Typed_Images5.png"  
+    "src": "ToadSavesChildren_Typed_Images5.png"  
   },  
   {  
     "textfileId": 118,
     "subdir" :"ToadSavesChildren_Typed_Images",
-    "src:" "ToadSavesChildren_Typed_Images6.png"
+    "src": "ToadSavesChildren_Typed_Images6.png"
   },  
   {  
     "textfileId": 119,
@@ -5555,47 +5548,47 @@ const textimages = [
   {  
     "textfileId": 121,
     "subdir" :"TurtlesWarParty_Typed_Images",
-    "src:" "TurtlesWarParty_Typed_Images0.png"  
+    "src": "TurtlesWarParty_Typed_Images0.png"  
   },  
   {  
     "textfileId": 121,
     "subdir" :"TurtlesWarParty_Typed_Images",
-    "src:" "TurtlesWarParty_Typed_Images1.png"  
+    "src": "TurtlesWarParty_Typed_Images1.png"  
   },  
   {  
     "textfileId": 121,
     "subdir" :"TurtlesWarParty_Typed_Images",
-    "src:" "TurtlesWarParty_Typed_Images2.png"  
+    "src": "TurtlesWarParty_Typed_Images2.png"  
   },  
   {  
     "textfileId": 121,
     "subdir" :"TurtlesWarParty_Typed_Images",
-    "src:" "TurtlesWarParty_Typed_Images3.png"  
+    "src": "TurtlesWarParty_Typed_Images3.png"  
   },  
   {  
     "textfileId": 121,
     "subdir" :"TurtlesWarParty_Typed_Images",
-    "src:" "TurtlesWarParty_Typed_Images4.png"  
+    "src": "TurtlesWarParty_Typed_Images4.png"  
   },  
   {  
     "textfileId": 121,
     "subdir" :"TurtlesWarParty_Typed_Images",
-    "src:" "TurtlesWarParty_Typed_Images5.png"  
+    "src": "TurtlesWarParty_Typed_Images5.png"  
   },  
   {  
     "textfileId": 121,
     "subdir" :"TurtlesWarParty_Typed_Images",
-    "src:" "TurtlesWarParty_Typed_Images6.png"  
+    "src": "TurtlesWarParty_Typed_Images6.png"  
   },  
   {  
     "textfileId": 121,
     "subdir" :"TurtlesWarParty_Typed_Images",
-    "src:" "TurtlesWarParty_Typed_Images7.png"  
+    "src": "TurtlesWarParty_Typed_Images7.png"  
   },  
   {  
     "textfileId": 121,
     "subdir" :"TurtlesWarParty_Typed_Images",
-    "src:" "TurtlesWarParty_Typed_Images8.png"
+    "src": "TurtlesWarParty_Typed_Images8.png"
   },  
   {
     "textfileId": 122,
@@ -5615,12 +5608,12 @@ const textimages = [
   {  
     "textfileId": 124,
     "subdir" :"TwoHeadedSnakes_Typed_Images",
-    "src:" "TwoHeadedSnakes_Typed_Images0.png"  
+    "src": "TwoHeadedSnakes_Typed_Images0.png"  
   },  
   {  
     "textfileId": 124,
     "subdir" :"TwoHeadedSnakes_Typed_Images",
-    "src:" "TwoHeadedSnakes_Typed_Images1.png"
+    "src": "TwoHeadedSnakes_Typed_Images1.png"
   },  
   {  
     "textfileId": 125,
@@ -5640,12 +5633,12 @@ const textimages = [
   {  
     "textfileId": 127,
     "subdir" :"TwoWomenOvercomeNezPerceMan_Typed_Images",
-    "src:" "TwoWomenOvercomeNezPerceMan_Typed_Images0.png"  
+    "src": "TwoWomenOvercomeNezPerceMan_Typed_Images0.png"  
   },  
   {  
     "textfileId": 127,
     "subdir" :"TwoWomenOvercomeNezPerceMan_Typed_Images",
-    "src:" "TwoWomenOvercomeNezPerceMan_Typed_Images1.png"
+    "src": "TwoWomenOvercomeNezPerceMan_Typed_Images1.png"
   },  
   {
     "textfileId": 128,
@@ -5660,22 +5653,22 @@ const textimages = [
   {  
     "textfileId": 129,
     "subdir" :"WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images",
-    "src:" "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images0.png"  
+    "src": "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images0.png"  
   },  
   {  
     "textfileId": 129,
     "subdir" :"WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images",
-    "src:" "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images1.png"  
+    "src": "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images1.png"  
   },  
   {  
     "textfileId": 129,
     "subdir" :"WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images",
-    "src:" "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images2.png"  
+    "src": "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images2.png"  
   },  
   {  
     "textfileId": 129,
     "subdir" :"WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images",
-    "src:" "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images3.png"
+    "src": "WarBetweenBlackfootAndTheCoeurDAlene_Typed_Images3.png"
   },  
   {  
     "textfileId": 130,
@@ -5785,47 +5778,47 @@ const textimages = [
   {  
     "textfileId": 132,
     "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
-    "src:" "WarBetweenLandAndWaterPeople_Typed_Images0.png"  
+    "src": "WarBetweenLandAndWaterPeople_Typed_Images0.png"  
   },  
   {  
     "textfileId": 132,
     "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
-    "src:" "WarBetweenLandAndWaterPeople_Typed_Images1.png"  
+    "src": "WarBetweenLandAndWaterPeople_Typed_Images1.png"  
   },  
   {  
     "textfileId": 132,
     "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
-    "src:" "WarBetweenLandAndWaterPeople_Typed_Images2.png"  
+    "src": "WarBetweenLandAndWaterPeople_Typed_Images2.png"  
   },  
   {  
     "textfileId": 132,
     "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
-    "src:" "WarBetweenLandAndWaterPeople_Typed_Images3.png"  
+    "src": "WarBetweenLandAndWaterPeople_Typed_Images3.png"  
   },  
   {  
     "textfileId": 132,
     "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
-    "src:" "WarBetweenLandAndWaterPeople_Typed_Images4.png"  
+    "src": "WarBetweenLandAndWaterPeople_Typed_Images4.png"  
   },  
   {  
     "textfileId": 132,
     "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
-    "src:" "WarBetweenLandAndWaterPeople_Typed_Images5.png"  
+    "src": "WarBetweenLandAndWaterPeople_Typed_Images5.png"  
   },  
   {  
     "textfileId": 132,
     "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
-    "src:" "WarBetweenLandAndWaterPeople_Typed_Images6.png"  
+    "src": "WarBetweenLandAndWaterPeople_Typed_Images6.png"  
   },  
   {  
     "textfileId": 132,
     "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
-    "src:" "WarBetweenLandAndWaterPeople_Typed_Images7.png"  
+    "src": "WarBetweenLandAndWaterPeople_Typed_Images7.png"  
   },  
   {  
     "textfileId": 132,
     "subdir" :"WarBetweenLandAndWaterPeople_Typed_Images",
-    "src:" "WarBetweenLandAndWaterPeople_Typed_Images8.png"
+    "src": "WarBetweenLandAndWaterPeople_Typed_Images8.png"
   },  
   {  
     "textfileId": 133,
@@ -5915,47 +5908,47 @@ const textimages = [
   {  
     "textfileId": 135,
     "subdir" :"WaterbirdContestsForWomen_Typed_Images",
-    "src:" "WaterbirdContestsForWomen_Typed_Images0.png"  
+    "src": "WaterbirdContestsForWomen_Typed_Images0.png"  
   },  
   {  
     "textfileId": 135,
     "subdir" :"WaterbirdContestsForWomen_Typed_Images",
-    "src:" "WaterbirdContestsForWomen_Typed_Images1.png"  
+    "src": "WaterbirdContestsForWomen_Typed_Images1.png"  
   },  
   {  
     "textfileId": 135,
     "subdir" :"WaterbirdContestsForWomen_Typed_Images",
-    "src:" "WaterbirdContestsForWomen_Typed_Images2.png"  
+    "src": "WaterbirdContestsForWomen_Typed_Images2.png"  
   },  
   {  
     "textfileId": 135,
     "subdir" :"WaterbirdContestsForWomen_Typed_Images",
-    "src:" "WaterbirdContestsForWomen_Typed_Images3.png"  
+    "src": "WaterbirdContestsForWomen_Typed_Images3.png"  
   },  
   {  
     "textfileId": 135,
     "subdir" :"WaterbirdContestsForWomen_Typed_Images",
-    "src:" "WaterbirdContestsForWomen_Typed_Images4.png"  
+    "src": "WaterbirdContestsForWomen_Typed_Images4.png"  
   },  
   {  
     "textfileId": 135,
     "subdir" :"WaterbirdContestsForWomen_Typed_Images",
-    "src:" "WaterbirdContestsForWomen_Typed_Images5.png"  
+    "src": "WaterbirdContestsForWomen_Typed_Images5.png"  
   },  
   {  
     "textfileId": 135,
     "subdir" :"WaterbirdContestsForWomen_Typed_Images",
-    "src:" "WaterbirdContestsForWomen_Typed_Images6.png"  
+    "src": "WaterbirdContestsForWomen_Typed_Images6.png"  
   },  
   {  
     "textfileId": 135,
     "subdir" :"WaterbirdContestsForWomen_Typed_Images",
-    "src:" "WaterbirdContestsForWomen_Typed_Images7.png"  
+    "src": "WaterbirdContestsForWomen_Typed_Images7.png"  
   },  
   {  
     "textfileId": 135,
     "subdir" :"WaterbirdContestsForWomen_Typed_Images",
-    "src:" "WaterbirdContestsForWomen_Typed_Images8.png"
+    "src": "WaterbirdContestsForWomen_Typed_Images8.png"
   },  
   {  
     "textfileId": 136,
@@ -5975,97 +5968,97 @@ const textimages = [
   {  
     "textfileId": 137,
     "subdir" :"WaterMonsterWoman_Typed_Images",
-    "src:" "WaterMonsterWoman_Typed_Images0.png"  
+    "src": "WaterMonsterWoman_Typed_Images0.png"  
   },  
   {  
     "textfileId": 137,
     "subdir" :"WaterMonsterWoman_Typed_Images",
-    "src:" "WaterMonsterWoman_Typed_Images1.png"  
+    "src": "WaterMonsterWoman_Typed_Images1.png"  
   },  
   {  
     "textfileId": 137,
     "subdir" :"WaterMonsterWoman_Typed_Images",
-    "src:" "WaterMonsterWoman_Typed_Images10.png"  
+    "src": "WaterMonsterWoman_Typed_Images10.png"  
   },  
   {  
     "textfileId": 137,
     "subdir" :"WaterMonsterWoman_Typed_Images",
-    "src:" "WaterMonsterWoman_Typed_Images2.png"  
+    "src": "WaterMonsterWoman_Typed_Images2.png"  
   },  
   {  
     "textfileId": 137,
     "subdir" :"WaterMonsterWoman_Typed_Images",
-    "src:" "WaterMonsterWoman_Typed_Images3.png"  
+    "src": "WaterMonsterWoman_Typed_Images3.png"  
   },  
   {  
     "textfileId": 137,
     "subdir" :"WaterMonsterWoman_Typed_Images",
-    "src:" "WaterMonsterWoman_Typed_Images4.png"  
+    "src": "WaterMonsterWoman_Typed_Images4.png"  
   },  
   {  
     "textfileId": 137,
     "subdir" :"WaterMonsterWoman_Typed_Images",
-    "src:" "WaterMonsterWoman_Typed_Images5.png"  
+    "src": "WaterMonsterWoman_Typed_Images5.png"  
   },  
   {  
     "textfileId": 137,
     "subdir" :"WaterMonsterWoman_Typed_Images",
-    "src:" "WaterMonsterWoman_Typed_Images6.png"  
+    "src": "WaterMonsterWoman_Typed_Images6.png"  
   },  
   {  
     "textfileId": 137,
     "subdir" :"WaterMonsterWoman_Typed_Images",
-    "src:" "WaterMonsterWoman_Typed_Images7.png"  
+    "src": "WaterMonsterWoman_Typed_Images7.png"  
   },  
   {  
     "textfileId": 137,
     "subdir" :"WaterMonsterWoman_Typed_Images",
-    "src:" "WaterMonsterWoman_Typed_Images8.png"  
+    "src": "WaterMonsterWoman_Typed_Images8.png"  
   },  
   {  
     "textfileId": 137,
     "subdir" :"WaterMonsterWoman_Typed_Images",
-    "src:" "WaterMonsterWoman_Typed_Images9.png"
+    "src": "WaterMonsterWoman_Typed_Images9.png"
   },  
   {  
     "textfileId": 138, 
     "subdir": "WomanSavedByLooseSaddleCinch_Engl_Images",
-    "src:" "WomanSavedByLooseSaddleCinch_Engl_Images0.png"  
+    "src": "WomanSavedByLooseSaddleCinch_Engl_Images0.png"  
   },  
   {  
     "textfileId": 138, 
     "subdir": "WomanSavedByLooseSaddleCinch_Engl_Images",
-    "src:" "WomanSavedByLooseSaddleCinch_Engl_Images1.png"
+    "src": "WomanSavedByLooseSaddleCinch_Engl_Images1.png"
   },
   {  
     "textfileId": 139, 
     "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
-    "src:" "WomanSavedByLooseSaddleCinch_Typed_Images0.png"  
+    "src": "WomanSavedByLooseSaddleCinch_Typed_Images0.png"  
   },  
   {  
     "textfileId": 139, 
     "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
-    "src:" "WomanSavedByLooseSaddleCinch_Typed_Images1.png"  
+    "src": "WomanSavedByLooseSaddleCinch_Typed_Images1.png"  
   },  
   {  
     "textfileId": 139, 
     "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
-    "src:" "WomanSavedByLooseSaddleCinch_Typed_Images2.png"  
+    "src": "WomanSavedByLooseSaddleCinch_Typed_Images2.png"  
   },  
   {  
     "textfileId": 139, 
     "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
-    "src:" "WomanSavedByLooseSaddleCinch_Typed_Images3.png"  
+    "src": "WomanSavedByLooseSaddleCinch_Typed_Images3.png"  
   },  
   {  
     "textfileId": 139, 
     "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
-    "src:" "WomanSavedByLooseSaddleCinch_Typed_Images4.png"  
+    "src": "WomanSavedByLooseSaddleCinch_Typed_Images4.png"  
   },  
   {  
     "textfileId": 139, 
     "subdir" :"WomanSavedByLooseSaddleCinch_Typed_Images",
-    "src:" "WomanSavedByLooseSaddleCinch_Typed_Images5.png"
+    "src": "WomanSavedByLooseSaddleCinch_Typed_Images5.png"
   }
 ]
 

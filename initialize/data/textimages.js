@@ -1233,398 +1233,398 @@ const textimages = [
   },  
   {  
     "textfileId": 33,
-    "subdir": "CHWC_Engl_Images",
-    "src": "CHWC_Engl_Images0.png"  
+    "subdir": "C_Engl_Images",
+    "src": "CEI0.png"  
   },  
   {  
     "textfileId": 33,
-    "subdir": "CHWC_Engl_Images",
-    "src": "CHWC_Engl_Images1.png"  
+    "subdir": "C_Engl_Images",
+    "src": "CEI1.png"  
   },  
   {  
     "textfileId": 33,
-    "subdir": "CHWC_Engl_Images",
-    "src": "CHWC_Engl_Images2.png"  
+    "subdir": "C_Engl_Images",
+    "src": "CEI2.png"  
   },  
   {  
     "textfileId": 33,
-    "subdir": "CHWC_Engl_Images",
-    "src": "CHWC_Engl_Images3.png"  
+    "subdir": "C_Engl_Images",
+    "src": "CEI3.png"  
   },  
   {  
     "textfileId": 33,
-    "subdir": "CHWC_Engl_Images",
-    "src": "CHWC_Engl_Images4.png"  
+    "subdir": "C_Engl_Images",
+    "src": "CEI4.png"  
   },  
   {  
     "textfileId": 33,
-    "subdir": "CHWC_Engl_Images",
-    "src": "CHWC_Engl_Images5.png"  
+    "subdir": "C_Engl_Images",
+    "src": "CEI5.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images0.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI0.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images1.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI1.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images10.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI10.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images11.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI11.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images12.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI12.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images13.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI13.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images14.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI14.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images15.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI15.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images16.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI16.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images17.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI17.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images18.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI18.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images19.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI19.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images2.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI2.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images20.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI20.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images21.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI21.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images22.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI22.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images23.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI23.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images24.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI24.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images25.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI25.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images26.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI26.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images27.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI27.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images28.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI28.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images29.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI29.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images3.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI3.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images30.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI30.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images31.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI31.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images32.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI32.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images33.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI33.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images34.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI34.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images35.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI35.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images36.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI36.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images37.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI37.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images38.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI38.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images39.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI39.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images4.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI4.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images40.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI40.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images41.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI41.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images42.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI42.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images43.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI43.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images44.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI44.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images45.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI45.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images46.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI46.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images47.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI47.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images48.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI48.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images49.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI49.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images5.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI5.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images50.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI50.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images6.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI6.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images7.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI7.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images8.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI8.png"  
   },  
   {  
     "textfileId": 34,
-    "subdir": "CHWC_Hand_Images",
-    "src": "CHWC_Hand_Images9.png"  
+    "subdir": "C_Hand_Images",
+    "src": "CHI9.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images0.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI0.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images1.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI1.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images10.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI10.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images11.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI11.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images12.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI12.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images13.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI13.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images14.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI14.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images15.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI15.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images16.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI16.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images17.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI17.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images18.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI18.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images19.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI19.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images2.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI2.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images20.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI20.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images21.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI21.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images3.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI3.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images4.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI4.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images5.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI5.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images6.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI6.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images7.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI7.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images8.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI8.png"  
   },  
   {  
     "textfileId": 35,
-    "subdir": "CHWC_Typed_Images",
-    "src": "CHWC_Typed_Images9.png"  
+    "subdir": "C_Typed_Images",
+    "src": "CTI9.png"  
   },  
   {  
     "textfileId": 36,
@@ -4777,392 +4777,392 @@ const textimages = [
   {  
     "textfileId": 107,
     "subdir": "De_Engl_Images",
-    "src": "TheGirlsWhoStoleDentalia_Engl_Images0.png"  
+    "src": "De_Engl_Images0.png"  
   },  
   {  
     "textfileId": 107,
     "subdir": "De_Engl_Images",
-    "src": "TheGirlsWhoStoleDentalia_Engl_Images1.png"  
+    "src": "De_Engl_Images1.png"  
   },  
   {  
     "textfileId": 107,
     "subdir": "De_Engl_Images",
-    "src": "TheGirlsWhoStoleDentalia_Engl_Images2.png"  
+    "src": "De_Engl_Images2.png"  
   },  
   {  
     "textfileId": 107,
     "subdir": "De_Engl_Images",
-    "src": "TheGirlsWhoStoleDentalia_Engl_Images3.png"
+    "src": "De_Engl_Images3.png"
   },
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images100.png"  
+    "src": "De_Hand_Images100.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images101.png"  
+    "src": "De_Hand_Images101.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images102.png"  
+    "src": "De_Hand_Images102.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images103.png"  
+    "src": "De_Hand_Images103.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images104.png"  
+    "src": "De_Hand_Images104.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images105.png"  
+    "src": "De_Hand_Images105.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images106.png"  
+    "src": "De_Hand_Images106.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images107.png"  
+    "src": "De_Hand_Images107.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images108.png"  
+    "src": "De_Hand_Images108.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images109.png"  
+    "src": "De_Hand_Images109.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images110.png"  
+    "src": "De_Hand_Images110.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images111.png"  
+    "src": "De_Hand_Images111.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images112.png"  
+    "src": "De_Hand_Images112.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images113.png"  
+    "src": "De_Hand_Images113.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images114.png"  
+    "src": "De_Hand_Images114.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images115.png"  
+    "src": "De_Hand_Images115.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images116.png"  
+    "src": "De_Hand_Images116.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images117.png"  
+    "src": "De_Hand_Images117.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images118.png"  
+    "src": "De_Hand_Images118.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images119.png"  
+    "src": "De_Hand_Images119.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images120.png"  
+    "src": "De_Hand_Images120.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images121.png"  
+    "src": "De_Hand_Images121.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images122.png"  
+    "src": "De_Hand_Images122.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images123.png"  
+    "src": "De_Hand_Images123.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images124.png"  
+    "src": "De_Hand_Images124.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images125.png"  
+    "src": "De_Hand_Images125.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images126.png"  
+    "src": "De_Hand_Images126.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images127.png"  
+    "src": "De_Hand_Images127.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images128.png"  
+    "src": "De_Hand_Images128.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images129.png"  
+    "src": "De_Hand_Images129.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images130.png"  
+    "src": "De_Hand_Images130.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images131.png"  
+    "src": "De_Hand_Images131.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images132.png"  
+    "src": "De_Hand_Images132.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images133.png"  
+    "src": "De_Hand_Images133.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images134.png"  
+    "src": "De_Hand_Images134.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images135.png"  
+    "src": "De_Hand_Images135.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images136.png"  
+    "src": "De_Hand_Images136.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images137.png"  
+    "src": "De_Hand_Images137.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images138.png"  
+    "src": "De_Hand_Images138.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images139.png"  
+    "src": "De_Hand_Images139.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images140.png"  
+    "src": "De_Hand_Images140.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images141.png"  
+    "src": "De_Hand_Images141.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images142.png"  
+    "src": "De_Hand_Images142.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images143.png"  
+    "src": "De_Hand_Images143.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images144.png"  
+    "src": "De_Hand_Images144.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images145.png"  
+    "src": "De_Hand_Images145.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images146.png"  
+    "src": "De_Hand_Images146.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images147.png"  
+    "src": "De_Hand_Images147.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images148.png"  
+    "src": "De_Hand_Images148.png"  
   },  
   {  
     "textfileId": 108,
     "subdir": "De_Hand_Images",
-    "src": "TheGirlsWhoStoleDentalia_Hand_Images149.png"  
+    "src": "De_Hand_Images149.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images0.png"  
+    "src": "De_Typed_Images0.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images1.png"  
+    "src": "De_Typed_Images1.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images10.png"  
+    "src": "De_Typed_Images10.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images11.png"  
+    "src": "De_Typed_Images11.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images12.png"  
+    "src": "De_Typed_Images12.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images13.png"  
+    "src": "De_Typed_Images13.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images14.png"  
+    "src": "De_Typed_Images14.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images15.png"  
+    "src": "De_Typed_Images15.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images16.png"  
+    "src": "De_Typed_Images16.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images17.png"  
+    "src": "De_Typed_Images17.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images18.png"  
+    "src": "De_Typed_Images18.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images19.png"  
+    "src": "De_Typed_Images19.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images2.png"  
+    "src": "De_Typed_Images2.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images20.png"  
+    "src": "De_Typed_Images20.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images21.png"  
+    "src": "De_Typed_Images21.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images22.png"  
+    "src": "De_Typed_Images22.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images23.png"  
+    "src": "De_Typed_Images23.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images3.png"  
+    "src": "De_Typed_Images3.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images4.png"  
+    "src": "De_Typed_Images4.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images5.png"  
+    "src": "De_Typed_Images5.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images6.png"  
+    "src": "De_Typed_Images6.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images7.png"  
+    "src": "De_Typed_Images7.png"  
   },  
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images8.png"  
-  },  
+    "src": "De_Typed_Images8.png"  
+  }, 
   {  
     "textfileId": 109,
     "subdir": "De_Typed_Images",
-    "src": "TheGirlsWhoStoleDentalia_Typed_Images9.png"
+    "src": "De_Typed_Images9.png"
   },  
 
   {  
